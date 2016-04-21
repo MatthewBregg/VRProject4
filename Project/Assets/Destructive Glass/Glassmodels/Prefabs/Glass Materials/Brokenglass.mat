@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Brokenglass
+  m_Shader: {fileID: 4800000, guid: 95e8a982bf2684b419cf1fa85220e11b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 31d22c52308a0e445a545a2e63622cfe, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 3d11a7a00b6d6cc439f98a33ae796cfe, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: df64a1e901609c24b9510c0dc0b4a6fa, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Spec_Gloss_Reflec_Masks
+        second:
+          m_Texture: {fileID: 2800000, guid: e348b5608a538f648a29786c8144229e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: 0.47675103
+      data:
+        first:
+          name: _Shininess
+        second: 1.3792832
+      data:
+        first:
+          name: _Gloss
+        second: 0.6923077
+      data:
+        first:
+          name: _FrezPow
+        second: 0.80769235
+      data:
+        first:
+          name: _FrezFalloff
+        second: 2.0063145
+      data:
+        first:
+          name: _EdgeAlpha
+        second: 0.3846154
+      data:
+        first:
+          name: _Metalics
+        second: 0.75
+      data:
+        first:
+          name: _Density
+        second: 0.07410447
+      data:
+        first:
+          name: _Bounds
+        second: 1
+      data:
+        first:
+          name: _RefScale
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.67531747, g: 0.68465006, b: 0.70149255, a: 0.20784314}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: 0.5}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
