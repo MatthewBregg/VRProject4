@@ -8,6 +8,8 @@ TagManager:
   - AICars
   - Pottery
   - Table
+  - TrafficA
+  - TrafficB
   layers:
   - Default
   - TransparentFX
