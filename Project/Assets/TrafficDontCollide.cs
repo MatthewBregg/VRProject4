@@ -4,8 +4,9 @@ using System.Collections.Generic;
 
 public class TrafficDontCollide : MonoBehaviour
 {
-	public int number;
-	// Use this for initialization
+	public bool reverse;
+
+
 
 	void Start () {
 
@@ -17,21 +18,24 @@ public class TrafficDontCollide : MonoBehaviour
 	}
 	//Pause another carset when it enters us, and reenable it once we have left it in the dust.
 	void OnTriggerEnter (Collider other) {
-		if (other.gameObject.tag.StartsWith("Traffic")) {
-			TrafficDontCollide trafficDontCollide = other.gameObject.GetComponent<TrafficDontCollide> ();
+		if (other.gameObject.tag.StartsWith("TrafficB")) {
+			
+			if ((!reverse && gameObject.transform.position.z > other.gameObject.transform.position.z) || (reverse && gameObject.transform.position.z < other.gameObject.transform.position.z)) {
+				//The goal is only to pause myself if I encounter an object that is farther along the path than I..
+				//Since I can't find a good way to do this in iTween, I am going with this very path specefici hack. 
+				iTween.Pause (other.gameObject);
 
-			if (trafficDontCollide && trafficDontCollide.number > number) {
-				//If trafficDontCollide script is null, then we dont want to pause it, as this piece of traffic doesn't have traffic control.
-				iTween.Pause (gameObject);
-				//Don't pause an earlier number! So, things that are "ahead" on the path should have an earlier number!!
 			}
 
 		}
 	}
-
+	IEnumerator ResumeCar(GameObject g) {
+		yield return new WaitForSeconds(1);
+		iTween.Resume (g);
+	}
 	void OnTriggerExit (Collider other) {
-		if (other.gameObject.tag.StartsWith("Traffic")) {
-			iTween.Resume (gameObject);
+		if (other.gameObject.tag.StartsWith("TrafficB")) {
+			StartCoroutine (ResumeCar (other.gameObject));
 		}
 	}
 

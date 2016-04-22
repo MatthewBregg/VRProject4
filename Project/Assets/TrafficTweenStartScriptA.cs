@@ -4,10 +4,12 @@ using System.Collections;
 public class TrafficTweenStartScriptA : MonoBehaviour {
 	public float delay = 0f;
 	public string pathName;
+	public float time = 15f;
+	public string type = "linear";
 	// Use this for initialization
 	void Start () {
 
-			 iTween.MoveTo (gameObject, iTween.Hash ("path", iTweenPath.GetPath (pathName), "time", 15, "orienttopath", true, "looptype", "loop", "easetype","linear","delay",delay));
+			 iTween.MoveTo (gameObject, iTween.Hash ("path", iTweenPath.GetPath (pathName), "time", time, "orienttopath", true, "looptype", "loop", "easetype",type,"delay",delay));
 			
 
 	}
