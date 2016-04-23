@@ -6,13 +6,36 @@ public class CarFactory : MonoBehaviour {
 	public GameObject fourPackCarPackLowTaxiTypeA;
 	public GameObject fourPackCarPackLowTaxiTypeB;
 
+	public GameObject sixPackCarPackHighTaxiTypeA;
+	public GameObject fourPackCarPackHighTaxiTypeA;
+	public GameObject fourPackCarPackHighTaxiTypeB;
+
+	public bool serveTaxisQuestionMark;
+
+	private static System.Random rnd = new System.Random();
+
 	public GameObject getSixPackOfCars() {
-		return (GameObject) Object.Instantiate (sixPackCarPackLowTaxiTypeA);
+		if (serveTaxisQuestionMark) {
+			return (GameObject)Object.Instantiate (sixPackCarPackHighTaxiTypeA);
+		} else {
+			return (GameObject)Object.Instantiate (sixPackCarPackLowTaxiTypeA);
+		}
 
 	}
-
+	private GameObject pickOneOfTwo(GameObject A, GameObject B) {
+		if (CarFactory.rnd.Next (0, 2) == 1) { 
+			return A;
+		} else { 
+			return B;
+			//Yeah yeah, but we don't need the factory to scale....
+		}
+	}
 	public GameObject getFourPackOfCars() {
-		return (GameObject) Object.Instantiate (fourPackCarPackLowTaxiTypeA);
+		if (serveTaxisQuestionMark) {
+			return (GameObject)Object.Instantiate (pickOneOfTwo (fourPackCarPackHighTaxiTypeA, fourPackCarPackHighTaxiTypeB));
+		} else {
+			return (GameObject)Object.Instantiate (pickOneOfTwo (fourPackCarPackLowTaxiTypeA, fourPackCarPackLowTaxiTypeB));
+		}
 	}
 
 	public void setParent(GameObject carPack, Transform parent, Vector3 lPosition) {
