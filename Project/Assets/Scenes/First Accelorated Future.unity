@@ -2947,7 +2947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &378903436
 MonoBehaviour:
@@ -2963,10 +2963,11 @@ MonoBehaviour:
   pathName: PathA
   pathColor: {r: 0, g: 1, b: 1, a: 1}
   nodes:
-  - {x: 88.77055, y: -14.18, z: -69.11485}
-  - {x: -24.700287, y: -14.18, z: -14.428584}
-  - {x: -233.07217, y: -14.18, z: -13.696596}
-  nodeCount: 3
+  - {x: 133, y: -14.18, z: -61.8}
+  - {x: 88.77, y: -14.18, z: -69.115}
+  - {x: -24.70029, y: -14.18, z: -14.42858}
+  - {x: -233.0722, y: -14.18, z: -13.6966}
+  nodeCount: 4
   initialized: 1
   initialName: New Path 1
   pathVisible: 1
@@ -3196,7 +3197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 9
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &449832581
 MonoBehaviour:
@@ -4363,7 +4364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 1.5
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &598826931
 MonoBehaviour:
@@ -4494,7 +4495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 4.5
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &614702629
 MonoBehaviour:
@@ -5415,7 +5416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 10.5
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &706011692
 MonoBehaviour:
@@ -7693,7 +7694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 7.5
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &891554741
 MonoBehaviour:
@@ -8201,7 +8202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 12
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &966024414
 MonoBehaviour:
@@ -20992,7 +20993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 13.5
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &1217335176
 MonoBehaviour:
@@ -22236,7 +22237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 6
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &1409591261
 MonoBehaviour:
@@ -24408,7 +24409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 3
   pathName: PathA
-  time: 14
+  time: 16
   type: linear
 --- !u!114 &1891177747
 MonoBehaviour:
@@ -25615,7 +25616,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2134648968}
   m_LocalRotation: {x: 0, y: -0.4893278, z: 0, w: 0.87209994}
-  m_LocalPosition: {x: 88.77055, y: -13.9, z: -69.11485}
+  m_LocalPosition: {x: 133, y: -14.18, z: -61.8}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 378903434}
