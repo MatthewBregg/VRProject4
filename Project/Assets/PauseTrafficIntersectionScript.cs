@@ -17,7 +17,8 @@ public class PauseTrafficIntersectionScript : MonoBehaviour
 		if (highPriorityCars.Count == 0) {
 			//No high priority cars in the intersection, let all the low priority cars that have built up go.
 			foreach (GameObject car in lowPriorityCars) {
-				iTween.Resume (car);
+				car.GetComponent<TrafficHandlePausing> ().intersectionPause = false;
+				//iTween.Resume (car);
 			}
 		}
 	}
@@ -32,7 +33,8 @@ public class PauseTrafficIntersectionScript : MonoBehaviour
 			//If there are high priority cars in the intersection, pause.
 			lowPriorityCars.Add (other.gameObject);
 			Debug.Log ("PAusing!");
-			iTween.Pause (other.gameObject);
+			other.gameObject.GetComponent<TrafficHandlePausing> ().intersectionPause = true;
+			//iTween.Pause (other.gameObject);
 		}
 			
 	}

@@ -23,7 +23,8 @@ public class TrafficDontCollide : MonoBehaviour
 			if ((!reverse && gameObject.transform.position.z > other.gameObject.transform.position.z) || (reverse && gameObject.transform.position.z < other.gameObject.transform.position.z)) {
 				//The goal is only to pause myself if I encounter an object that is farther along the path than I..
 				//Since I can't find a good way to do this in iTween, I am going with this very path specefici hack. 
-				iTween.Pause (other.gameObject);
+				other.gameObject.GetComponent<TrafficHandlePausing> ().sameLanePause = true;
+				//iTween.Pause (other.gameObject);
 
 			}
 
@@ -31,7 +32,8 @@ public class TrafficDontCollide : MonoBehaviour
 	}
 	IEnumerator ResumeCar(GameObject g) {
 		yield return new WaitForSeconds(1);
-		iTween.Resume (g);
+		g.GetComponent<TrafficHandlePausing> ().sameLanePause = false;
+		//iTween.Resume (g);
 	}
 	void OnTriggerExit (Collider other) {
 		if (other.gameObject.tag.StartsWith("TrafficB")) {
