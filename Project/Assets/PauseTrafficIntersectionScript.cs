@@ -7,7 +7,8 @@ public class PauseTrafficIntersectionScript : MonoBehaviour
 	private HashSet<GameObject> highPriorityCars = new HashSet<GameObject>();
 	private HashSet<GameObject> lowPriorityCars = new HashSet<GameObject>();
 	// Use this for initialization
-		
+	public string highPriorityCar = "TrafficA";
+	public string lowPriorityCar = "TrafficB";
 	void Start () {
 		
 	}
@@ -24,12 +25,12 @@ public class PauseTrafficIntersectionScript : MonoBehaviour
 	}
 
 	void OnTriggerEnter (Collider other) {
-		if (other.gameObject.CompareTag ("TrafficA")) {
+		if (other.gameObject.CompareTag (highPriorityCar)) {
 			highPriorityCars.Add (other.gameObject);
 			Debug.Log ("Added a car, count is " + highPriorityCars.Count);
 		}
 
-		if (other.gameObject.CompareTag ("TrafficB") && highPriorityCars.Count > 0) {
+		if (other.gameObject.CompareTag (lowPriorityCar) && highPriorityCars.Count > 0) {
 			//If there are high priority cars in the intersection, pause.
 			lowPriorityCars.Add (other.gameObject);
 			Debug.Log ("PAusing!");
@@ -40,7 +41,7 @@ public class PauseTrafficIntersectionScript : MonoBehaviour
 	}
 
 	void OnTriggerExit (Collider other) {
-		if (other.gameObject.CompareTag ("TrafficA")) {
+		if (other.gameObject.CompareTag (highPriorityCar)) {
 			highPriorityCars.Remove (other.gameObject);
 		}
 	}
