@@ -2238,8 +2238,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 243987574}
-  m_LocalRotation: {x: 0, y: -0.4893278, z: 0, w: 0.87209994}
-  m_LocalPosition: {x: 88.77055, y: -13.9, z: -69.11485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -68, y: -14.18, z: -241}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 1207861800}
@@ -2679,7 +2679,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 344784405}
   m_LocalRotation: {x: 0, y: -0.7852448, z: 0, w: 0.6191855}
-  m_LocalPosition: {x: 12.940108, y: 0, z: 12.687996}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 429826077}
@@ -3365,7 +3365,7 @@ MonoBehaviour:
   pathName: PathC
   pathColor: {r: 0.044658296, g: 0.43382353, b: 0, a: 1}
   nodes:
-  - {x: 52.6, y: -13.24, z: 113.8}
+  - {x: 52, y: -13.24, z: 113}
   - {x: 26.805702, y: -13.24, z: 30.7897}
   - {x: 18.148022, y: -14.05, z: 0.07704449}
   - {x: 8.64, y: -14.18, z: -37}
@@ -3468,7 +3468,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 458711205}
   m_LocalRotation: {x: 0, y: -0.7852448, z: 0, w: 0.6191855}
-  m_LocalPosition: {x: 12.940108, y: 0, z: 12.687996}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 112732308}
@@ -3574,8 +3574,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470021539}
-  m_LocalRotation: {x: 0, y: 0.4893278, z: 0, w: 0.87209994}
-  m_LocalPosition: {x: -18.81645, y: 0, z: 0.9039292}
+  m_LocalRotation: {x: 0, y: 0.77917457, z: 0, w: 0.62680703}
+  m_LocalPosition: {x: 0.0026252747, y: 0, z: -0.17315064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 994903039}
@@ -3621,7 +3621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 2
   pathName: PathB
-  time: 12
+  time: 18
   type: linear
 --- !u!114 &470021544
 MonoBehaviour:
@@ -7839,7 +7839,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 903028103}
   m_LocalRotation: {x: 0, y: -0.4893278, z: 0, w: 0.87209994}
-  m_LocalPosition: {x: 88.77055, y: -13.24, z: -69.11485}
+  m_LocalPosition: {x: 52, y: -13.24, z: 113}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 458711213}
@@ -7871,8 +7871,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 906872426}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.84, y: 0, z: 9.35}
+  m_LocalRotation: {x: 0, y: -0.5481418, z: 0, w: 0.8363855}
+  m_LocalPosition: {x: 7.02, y: 0, z: 21.52}
   m_LocalScale: {x: 1.6419736, y: 0.99999964, z: 4.162453}
   m_Children: []
   m_Father: {fileID: 243987575}
@@ -8386,7 +8386,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 994903038}
   m_LocalRotation: {x: 0, y: 0.05834852, z: 0, w: 0.9982963}
-  m_LocalPosition: {x: 0.11583905, y: 0, z: -0.04502847}
+  m_LocalPosition: {x: 0.55, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1813509572}
@@ -20784,6 +20784,7 @@ GameObject:
   - 54: {fileID: 1207861801}
   - 114: {fileID: 1207861802}
   - 114: {fileID: 1207861803}
+  - 114: {fileID: 1207861804}
   m_Layer: 0
   m_Name: Traffic
   m_TagString: TrafficB
@@ -20804,7 +20805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0
   pathName: PathB
-  time: 12
+  time: 18
   type: linear
 --- !u!114 &1207861796
 MonoBehaviour:
@@ -20820,11 +20821,14 @@ MonoBehaviour:
   pathName: PathB
   pathColor: {r: 0, g: 1, b: 1, a: 1}
   nodes:
-  - {x: -17, y: -14.18, z: -225}
-  - {x: -2.7176437, y: -14.18, z: -36.651283}
-  - {x: 13.956604, y: -13.24, z: 27.013317}
-  - {x: 39.83515, y: -13.24, z: 113.27531}
-  nodeCount: 4
+  - {x: -68, y: -14.18, z: -226.85834}
+  - {x: -22.747269, y: -14.18, z: -225.44142}
+  - {x: -6.5937195, y: -14.18, z: -36.65128}
+  - {x: 6.044645, y: -14.1, z: 3.37625}
+  - {x: 19.96456, y: -13.24, z: 43.40939}
+  - {x: 35.50164, y: -13.24, z: 92.75709}
+  - {x: 0, y: -13.24, z: 125.2636}
+  nodeCount: 7
   initialized: 1
   initialName: New Path 1
   pathVisible: 1
@@ -20879,8 +20883,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1207861794}
-  m_LocalRotation: {x: 0, y: 0.4893278, z: 0, w: 0.87209994}
-  m_LocalPosition: {x: -18.81645, y: 0, z: 0.9039292}
+  m_LocalRotation: {x: 0, y: 0.7791747, z: 0, w: 0.6268069}
+  m_LocalPosition: {x: 0.0026252747, y: 0, z: -0.17315064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1745545903}
@@ -20926,6 +20930,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intersectionPause: 0
   sameLanePause: 0
+--- !u!114 &1207861804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207861794}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathName: PathB
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -17, y: -14.18, z: -225}
+  - {x: -2.7176437, y: -14.18, z: -36.651283}
+  - {x: 6.0446453, y: -14.1, z: 3.3726254}
+  - {x: 19.964563, y: -13.24, z: 43.40939}
+  - {x: 35.501644, y: -13.24, z: 92.75709}
+  - {x: 0, y: -13.24, z: 125.26361}
+  nodeCount: 6
+  initialized: 1
+  initialName: New Path 1
+  pathVisible: 0
 --- !u!4 &1214277253 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 42a53a2738e7df043b79bfede1ca0fa2, type: 3}
@@ -23619,7 +23647,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1745545902}
   m_LocalRotation: {x: 0, y: 0.05834852, z: 0, w: 0.9982963}
-  m_LocalPosition: {x: 0.11583905, y: 0, z: -0.04502847}
+  m_LocalPosition: {x: 0.55, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1776030808}
