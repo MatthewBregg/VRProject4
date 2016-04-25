@@ -6,29 +6,34 @@ public interface Command {
 }
 
 public class PerformActionWhenPlayerClose : MonoBehaviour {
-	private Transform target;
-	private Transform myTransform;
-	public float range;
 	public GameObject commandToRun;
-	private bool done = false;
 	// Use this for initialization
 	void Start () {
-		target = GameObject.FindWithTag("Player").transform; //target the target
-		myTransform = transform;
+		
 	}
+    public void OnCollisionEnter(Collision collision)
+    {
 
-	// Update is called once per frame
-	void Update () {
-		if (Vector3.Distance (myTransform.position, target.position) < range) {
-			//Perform some action
-			if (!done) {
-				done = true;
-				Command c = commandToRun.GetComponent<Command> ();
-				c.executeCommand ();
-			}
-		} else { 
-			done = false;
-			//Once the player moves away, reset done so the command will be done again when the player gets close again; 
-		}
-	}
+        detection(collision.gameObject);
+
+    }
+
+    public void OnTriggerEnter(Collider collider)
+    {
+        detection(collider.gameObject);
+    }
+
+    private void detection(GameObject collided)
+    {
+        Transform t = collided.transform;
+        while (t != null)
+        {
+            if (t.gameObject.CompareTag("Player")) //replace with list if desired
+            {
+                Debug.Log("Running command!");
+                commandToRun.GetComponent<Command>().executeCommand();
+            }
+            t = t.parent;
+        }
+    }
 }
