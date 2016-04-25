@@ -27,13 +27,13 @@ public class PauseTrafficIntersectionScript : MonoBehaviour
 	void OnTriggerEnter (Collider other) {
 		if (other.gameObject.CompareTag (highPriorityCar)) {
 			highPriorityCars.Add (other.gameObject);
-			Debug.Log ("Added a car, count is " + highPriorityCars.Count);
+//			Debug.Log ("Added a car, count is " + highPriorityCars.Count);
 		}
 
 		if (other.gameObject.CompareTag (lowPriorityCar) && highPriorityCars.Count > 0) {
 			//If there are high priority cars in the intersection, pause.
 			lowPriorityCars.Add (other.gameObject);
-			Debug.Log ("PAusing!");
+			//Debug.Log ("PAusing!");
 			other.gameObject.GetComponent<TrafficHandlePausing> ().intersectionPause = true;
 			//iTween.Pause (other.gameObject);
 		}
