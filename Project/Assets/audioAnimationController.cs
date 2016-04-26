@@ -17,10 +17,12 @@ public class audioAnimationController : MonoBehaviour {
 	private AudioSource source1;
 	private AudioSource source2;
 
+	public enum States { Beginning, Advisor1FirstClip, Advisor2FirstClip, Advisor1SecondClip, Advisor2SecondClip, Advisor1ThirdClip, AwaitingPlayerResponse, DidNotChooseRegulation, DidChooseRegulation, Done }; 
+
 	private AdvisorAnimationController advisor1Animator;
 	private AdvisorAnimationController advisor2Animator;
 
-	public int state=0;
+	public States state=States.Beginning;
 	// Use this for initialization
 	void Start () {
 		source1 = advisor1.GetComponent<AudioSource> ();
@@ -32,8 +34,8 @@ public class audioAnimationController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (state == 0) {
-			state = 1;
+		if (state == States.Beginning) {
+			state = States.Advisor1FirstClip;
 			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.Idle;
 
 			advisor1Animator.currentlyPlaying = AdvisorAnimationEnum.isTalking;
@@ -41,8 +43,8 @@ public class audioAnimationController : MonoBehaviour {
 			source1.clip = a1;
 			source1.Play();
 		}
-		if (state == 1 && !source1.isPlaying) {
-			state = 2;
+		if (state == States.Advisor1FirstClip && !source1.isPlaying) {
+			state = States.Advisor2FirstClip;
 
 			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isTalking2;
 
@@ -53,8 +55,8 @@ public class audioAnimationController : MonoBehaviour {
 
 		}
 
-		if (state == 2 && !source2.isPlaying) {
-			state = 3;
+		if (state == States.Advisor2FirstClip && !source2.isPlaying) {
+			state = States.Advisor1SecondClip;
 
 			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.Idle;
 
@@ -65,8 +67,8 @@ public class audioAnimationController : MonoBehaviour {
 		}
 
 
-		if (state == 3 && !source1.isPlaying) {
-			state = 4;
+		if (state == States.Advisor1SecondClip && !source1.isPlaying) {
+			state = States.Advisor2SecondClip;
 
 			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isTalking2;
 
@@ -77,8 +79,8 @@ public class audioAnimationController : MonoBehaviour {
 
 		}
 
-		if (state == 4 && !source2.isPlaying) {
-			state = 5;
+		if (state == States.Advisor2SecondClip && !source2.isPlaying) {
+			state = States.Advisor1ThirdClip;
 
 			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.Idle;
 
@@ -88,31 +90,31 @@ public class audioAnimationController : MonoBehaviour {
 			source1.Play();
 		}
 
-		if (state == 5 && !source1.isPlaying) {
-
+		if (state == States.Advisor1ThirdClip && !source1.isPlaying) {
+			state = States.AwaitingPlayerResponse;
 			advisor1Animator.currentlyPlaying = AdvisorAnimationEnum.isShakingHands;
 			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isShakingHands;
 
 		}
 
-		if (state == 8) {
-			state = 100;
+		if (state == States.DidChooseRegulation) {
+			state = States.Done;
 			StaticDecisionsMade.chooseToRegulateUber = false;
-			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.Idle;
+			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isDisappointed;
 
-			advisor1Animator.currentlyPlaying = AdvisorAnimationEnum.isTalking;
+			advisor1Animator.currentlyPlaying = AdvisorAnimationEnum.isShakingHandsEnd;
 			source1.Stop ();
 			source1.clip = athanks;
 			source1.Play();
 
 		}
 
-		if (state == 9) {
-			state = 100;
+		if (state == States.DidNotChooseRegulation) {
+			state = States.Done;
 			StaticDecisionsMade.chooseToRegulateUber = true;
-			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isTalking2;
+			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isShakingHandsEnd;
 
-			advisor1Animator.currentlyPlaying = AdvisorAnimationEnum.Idle;
+			advisor1Animator.currentlyPlaying = AdvisorAnimationEnum.isDisappointed;
 			source2.Stop ();
 			source2.clip = bthanks;
 			source2.Play();
@@ -121,8 +123,9 @@ public class audioAnimationController : MonoBehaviour {
 
 		}
 
-		if ( state == 100 && !source1.isPlaying && !source2.isPlaying ) {
+		if ( state == States.Done && !source1.isPlaying && !source2.isPlaying ) {
 			//Transition scene!
+			//Might want to delay this a bit more.
 		}
 
 

@@ -16,8 +16,9 @@ public class AdvisorTwoCommand : MonoBehaviour, Command {
 	}
 
 	public void executeCommand() {
-		if ( animations.state == 5 ) {
-			animations.state = 9;
+
+		if ( animations.state == audioAnimationController.States.AwaitingPlayerResponse ) {
+			animations.state = audioAnimationController.States.DidNotChooseRegulation;
 		}
 		Debug.Log ("Advisor two ran command!");
 	}
