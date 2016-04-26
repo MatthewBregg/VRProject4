@@ -6262,6 +6262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24595e16874b144bb550b4ca718475f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VirtualHUmans: {fileID: 2134790975}
 --- !u!1 &288167565
 GameObject:
   m_ObjectHideFlags: 0
@@ -17242,6 +17243,80 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: d4ef34fa8a38eef4bb98d2c99a6a0646, type: 3}
   m_PrefabInternal: {fileID: 1173962518}
+--- !u!82 &903586094
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903586093}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 10
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!65 &903586095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18169,12 +18244,12 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 34d7357e507bf904fafd6203d606e361, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.181
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
-  Priority: 128
+  Priority: 241
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -35468,7 +35543,7 @@ Prefab:
     - target: {fileID: 9500000, guid: 34ff573da42b9b84785312ab3a843c44, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 69aea58f33284104e91dcf7e620b7759, type: 2}
+      objectReference: {fileID: 9100000, guid: 554932e105753bf43994341bea8858a5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 34ff573da42b9b84785312ab3a843c44, type: 3}
   m_IsPrefabParent: 0
@@ -38531,6 +38606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017668eb7483c4a4a9358e6690cbe316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VirtualHUmans: {fileID: 2134790975}
 --- !u!1 &1495047150
 GameObject:
   m_ObjectHideFlags: 0
@@ -44790,6 +44866,80 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _currentlyPlaying: 7
   _pauseAnimation: 0
+--- !u!82 &1824578275
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1824578272}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 10
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1833627507
 GameObject:
   m_ObjectHideFlags: 0
@@ -50323,6 +50473,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2134790976}
+  - 114: {fileID: 2134790977}
   m_Layer: 0
   m_Name: VirtualHumans
   m_TagString: Untagged
@@ -50344,6 +50495,33 @@ Transform:
   - {fileID: 1285444499}
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!114 &2134790977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134790975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73ca850fb27efb40a4ab38bebe91715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advisor1Reg1: {fileID: 8300000, guid: bbe98ea5cad0ad14c876f0691ed0094a, type: 3}
+  advisor1Reg2: {fileID: 8300000, guid: 11db6d5b165ab754dbcb495de1b7f059, type: 3}
+  advisor1Reg3: {fileID: 8300000, guid: c60e4c526736fa34d8a49aa30f2e0b8e, type: 3}
+  advisor1NoReg1: {fileID: 8300000, guid: bbe98ea5cad0ad14c876f0691ed0094a, type: 3}
+  advisor1NoReg2: {fileID: 8300000, guid: 120262a92c8929c42a004d2288db84ee, type: 3}
+  advisor1NoReg3: {fileID: 8300000, guid: e6b2d60895fcdc240a3972322dc65506, type: 3}
+  advisor2Reg1: {fileID: 8300000, guid: 23350cd6c93b07d499a5e4d6dc1cdc69, type: 3}
+  advisor2Reg2: {fileID: 8300000, guid: 084fa56a28833b6478b3a79200a865f2, type: 3}
+  advisor2Reg3: {fileID: 8300000, guid: 50e7998b2249a8c45b20218aa281efea, type: 3}
+  advisor2NoReg1: {fileID: 8300000, guid: 23350cd6c93b07d499a5e4d6dc1cdc69, type: 3}
+  advisor2NoReg2: {fileID: 8300000, guid: 1a615878f9eef78439e31db4218442e2, type: 3}
+  advisor2NoReg3: {fileID: 8300000, guid: 4d51518146682494dbd85b7cb28b65cd, type: 3}
+  regulated: 0
+  advisor1: {fileID: 903586093}
+  advisor2: {fileID: 1824578272}
+  state: 0
 --- !u!1 &2134817643
 GameObject:
   m_ObjectHideFlags: 0
