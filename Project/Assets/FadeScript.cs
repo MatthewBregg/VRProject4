@@ -14,6 +14,7 @@ public class FadeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (fadeIn)
         {
             
@@ -42,13 +43,15 @@ public class FadeScript : MonoBehaviour
 
     }
     private bool fadeIn = false;
-    private void FadeIn()
+    public void FadeIn()
     {
+        fadeOut = false;
         fadeIn = true;
     }
-    public bool fadeOut = false;
+    private bool fadeOut = false;
     public void FadeOut()
     {
+        fadeIn = false;
         fadeOut = true;
     }
 }
