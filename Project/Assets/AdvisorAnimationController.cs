@@ -24,7 +24,7 @@ public class CustomInspector : Editor {
 
 
 
-public enum AdvisorAnimationEnum { isShakingHands, isTalking, isYelling, isArguing, isDisappointed, isTalking2, isArguing2, Idle};
+public enum AdvisorAnimationEnum { isShakingHands, isTalking, isYelling, isArguing, isDisappointed, isTalking2, isArguing2, Idle, isShakingHandsEnd};
 
 public class AdvisorAnimationController : MonoBehaviour {
 
@@ -83,6 +83,6 @@ public class AdvisorAnimationController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
