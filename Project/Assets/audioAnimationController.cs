@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class audioAnimationController : MonoBehaviour {
 	public AudioClip a1;
@@ -99,7 +100,7 @@ public class audioAnimationController : MonoBehaviour {
 
 		if (state == States.DidChooseRegulation) {
 			state = States.Done;
-			StaticDecisionsMade.chooseToRegulateUber = false;
+			StaticDecisionsMade.chooseToRegulateUber = true;
 			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isDisappointed;
 
 			advisor1Animator.currentlyPlaying = AdvisorAnimationEnum.isShakingHandsEnd;
@@ -111,7 +112,7 @@ public class audioAnimationController : MonoBehaviour {
 
 		if (state == States.DidNotChooseRegulation) {
 			state = States.Done;
-			StaticDecisionsMade.chooseToRegulateUber = true;
+			StaticDecisionsMade.chooseToRegulateUber = false;
 			advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isShakingHandsEnd;
 
 			advisor1Animator.currentlyPlaying = AdvisorAnimationEnum.isDisappointed;
@@ -124,9 +125,10 @@ public class audioAnimationController : MonoBehaviour {
 		}
 
 		if ( state == States.Done && !source1.isPlaying && !source2.isPlaying ) {
-			//Transition scene!
-			//Might want to delay this a bit more.
-		}
+            //Transition scene!
+            //Might want to delay this a bit more.
+            SceneManager.LoadScene("First Accelorated Future");
+        }
 
 
 	}

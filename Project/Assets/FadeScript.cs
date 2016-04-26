@@ -42,6 +42,12 @@ public class FadeScript : MonoBehaviour
         }
 
     }
+
+    public bool isTransitioning()
+    {
+        return (fadeOut || fadeIn);
+    }
+
     private bool fadeIn = false;
     public void FadeIn()
     {

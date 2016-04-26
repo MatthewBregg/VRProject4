@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class StaticDecisionsMade : MonoBehaviour {
-	public static bool chooseToRegulateUber;
+	public static bool chooseToRegulateUber = false;
     public static bool chooseToTakeTaxi;
 	// Use this for initialization
 	void Start () {

@@ -47,7 +47,7 @@ public class CarFactory : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-	
+        serveTaxisQuestionMark =  StaticDecisionsMade.chooseToRegulateUber;
 	}
 	
 	// Update is called once per frame

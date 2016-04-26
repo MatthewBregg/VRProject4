@@ -1,8 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class BroSpeechScriptController : MonoBehaviour
 {
+
+    public GameObject player;
+    public FadeScript fader;      
+
     public AudioClip advisor1Reg1;
     public AudioClip advisor1Reg2;
     public AudioClip advisor1Reg3;
@@ -51,6 +56,8 @@ public class BroSpeechScriptController : MonoBehaviour
         advisor1Animator = advisor1.GetComponent<AdvisorAnimationController>();
         advisor2Animator = advisor2.GetComponent<AdvisorAnimationController>();
         initializeAudioClips();
+        fader = player.GetComponentInChildren<FadeScript>();
+
     }
     void initializeAudioClips ()
     {
@@ -172,10 +179,42 @@ public class BroSpeechScriptController : MonoBehaviour
 
         if (state == States.Done && !source1.isPlaying && !source2.isPlaying)
         {
+
             //Transition scene!
             //Might want to delay this a bit more.
+            if ( !FadedOut )
+            {
+                FadedOut = true;
+                fader.FadeOut();
+                
+            }
+            else
+            {
+                if ( !fader.isTransitioning() && !FadedIn)
+                {
+                    FadedIn = true;
+                    //Do all the movements, this is when screen is dark.
+                    player.transform.position = new Vector3(.85f, -13.6f, 14.97f);
+                    //Fade in 
+                    fader.FadeIn();
+                }
+                else if ( !fader.isTransitioning() && !FadedInFadedOut) 
+                {
+                    FadedInFadedOut = true;
+                    //Do anything AFTER fade in, screen is done, transition is done
+                    Debug.Log("I happen after the player moves and can see again!");
+                }
+            }
+
+            
         }
 
 
     }
+
+    private bool FadedOut = false; 
+    private bool FadedIn = false;
+    private bool FadedInFadedOut = false;
+
+    
 }
