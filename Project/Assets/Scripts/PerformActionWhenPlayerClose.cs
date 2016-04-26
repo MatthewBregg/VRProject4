@@ -22,18 +22,25 @@ public class PerformActionWhenPlayerClose : MonoBehaviour {
     {
         detection(collider.gameObject);
     }
-
-    private void detection(GameObject collided)
+    public static bool isPlayer(GameObject mightBePlayer)
     {
-        Transform t = collided.transform;
+        Transform t = mightBePlayer.transform;
         while (t != null)
         {
             if (t.gameObject.CompareTag("Player")) //replace with list if desired
             {
-                Debug.Log("Running command!");
-                commandToRun.GetComponent<Command>().executeCommand();
+                return true;
             }
             t = t.parent;
+        }
+        return false;
+
+    }
+    private void detection(GameObject collided)
+    {
+       if ( PerformActionWhenPlayerClose.isPlayer(collided))
+        {
+            commandToRun.GetComponent<Command>().executeCommand();
         }
     }
 }
