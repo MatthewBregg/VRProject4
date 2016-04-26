@@ -15,7 +15,7 @@ public class ShatterPotteryOnImpact : MonoBehaviour {
 	}
 
     public void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.CompareTag("Table") || collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Pottery")) {
+        if (collision.gameObject.CompareTag("Table") || PerformActionWhenPlayerClose.isPlayer(collision.gameObject) || collision.gameObject.CompareTag("Pottery")) {
             return;
         }
 //        print(collision.gameObject.name);
