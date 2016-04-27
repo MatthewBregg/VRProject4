@@ -201,6 +201,16 @@ public class BroSpeechScriptController : MonoBehaviour
                     city.GetComponent<AudioSource>().enabled = true;
                     colombianRestaurant.GetComponent<AudioSource>().enabled = false;
 
+                    //Enable one of the cars
+                    if ( StaticDecisionsMade.chooseToTakeTaxi)
+                    {
+                        taxiCar.SetActive(true);
+                    } 
+                    else
+                    {
+                        uberCar.SetActive(true);
+                    }
+
                     //Fade in 
                     fader.FadeIn();
                 }
@@ -217,7 +227,8 @@ public class BroSpeechScriptController : MonoBehaviour
 
 
     }
-
+    public GameObject uberCar;
+    public GameObject taxiCar;
     private bool FadedOut = false; 
     private bool FadedIn = false;
     private bool FadedInFadedOut = false;
