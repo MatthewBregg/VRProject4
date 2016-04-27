@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>VRProject 4 | Uber Regulation Social Issue</title>
+    <title>The Mystic Massacre VR</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -73,11 +73,11 @@
           <img class="first-slide" src="notonfirehuts.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Make Decisions as the Mayor</h1>
+              <h1>Explore a Native American Village in VR</h1>
               <p>
-                Put yourself in the shoes of the mayor, who has to make a tough decision on what to do about Uber
+                Put yourself in the moccasins of a Pequot Indian at the time of the fateful Mystic Massacre.
               </p>
-              <p><a class="btn btn-lg btn-primary" href="" role="button">Link to Video</a></p>
+              <p><a class="btn btn-lg btn-primary" href="https://youtu.be/0Ln8CvB9qvA?t=2m19s" role="button">Link to Video</a></p>
             </div>
           </div>
         </div>
@@ -85,23 +85,11 @@
           <img class="second-slide" src="./burninghuts.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>See the consequences of your decision as a Mayor</h1>
+              <h1>Experience the retaliation of colonists following the attack of Natives on their settlements. </h1>
               <p>
-		See the changes in traffic, and attitude of the people
+                Live through the abrupt night-time assault and siege of your village. Will your resistance be enough?
               </p>
-              <p><a class="btn btn-lg btn-primary" href="" role="button">Link to Video</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="./burninghuts.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Choose whether to take a Uber, or a Taxi home!</h1>
-              <p>
-		And then face the consequences of your decision
-              </p>
-              <p><a class="btn btn-lg btn-primary" href="" role="button">Link to Video</a></p>
+              <p><a class="btn btn-lg btn-primary" href="https://youtu.be/0Ln8CvB9qvA?t=5m29s" role="button">Link to Video</a></p>
             </div>
           </div>
         </div>
@@ -127,16 +115,30 @@
         <div class="col-lg-4">
           <h2>Link to Video</h2>
           <p>
-	    The Uber VR Project has been designed around the HTC VIVE headset, and utilizes the leap motion hand detection system. Our video has been recorded in monoscopic view due to limitations in the current HTC Vive software. We invite you to download the project and experience it in VR yourself. 
+            The Mystic Massacre project has been designed around the Oculus VR headset. Our demonstration video has been recorded in a monoscopic view due to Oculus' integration into Unity. We invite you to download the project and experience it in VR yourself.
           </p>
-          <p><a class="btn btn-default" href="" role="button">View Video &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://youtu.be/0Ln8CvB9qvA" role="button">View Video &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <h2>Link to Files</h2>
           <p>
             All files related to the project can be found on GitHub, which we used as our sole collaboration and syndication tool for the project.
           </p>
-          <p><a class="btn btn-default" href="https://github.com/MatthewBregg/VRProject4" role="button">View Files &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://github.com/MatthewBregg/VRProject2" role="button">View Files &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>Link to Education Evaluation</h2>
+          <p>
+            The Educational Evaluation
+          </p>
+          <p><a class="btn btn-default" href="./EducationalEvaluation.html" role="button">View Evaluation &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>Link to SUS Evaluation</h2>
+          <p>
+            The SUS Evaluation
+          </p>
+          <p><a class="btn btn-default" href="SUSEval.html" role="button">View Evaluation &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -145,7 +147,7 @@
             Considering this class does not have a focus on art asset creation, we used mostly consolidated assets.
             A list of these assets is provided for reference.
           </p>
-          <p><a class="btn btn-default" href="https://github.com/MatthewBregg/VRProject4/blob/master/sources.txt" role="button">View Sources &raquo;</a></p>
+          <p><a class="btn btn-default" href="https://github.com/MatthewBregg/VRProject2/blob/master/sources.txt" role="button">View Sources &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
@@ -153,7 +155,7 @@
           <p>
             Link to executable, compressed with 7zip to enable easy upload.
           </p>
-          <p><a class="btn btn-default" href="" role="button">Get Executable &raquo;</a></p>
+          <p><a class="btn btn-default" href="http://www.mediafire.com/download/5vg4ox8j4957und/Project_2_Build.7z" role="button">Get Executable &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -166,6 +168,7 @@
         <div class="col-md-7">
           <h2 class="featurette-heading">Motivation and Learning Objective<span class="text-muted">&nbsp; Our goal and why we sought to accomplish it</span></h2>
           <p class="lead">
+            The Mystic Massacre VR project seeks to recreate the namesake event that occured in Connecticut during the Pequot War (1636-1638). Our goal in designing this project was to allow users to learn about some of the brutal atrocities that the colonists carried out in their retaliatory attacks against the Pequot Indians. This specific instance was selected for our project because we have adequate resources to historically support our representations both of the appearance of the camp before the attack was executed and of the events of the attack itself. We aimed to display how violent the era of American settlement and colonization was, especially between the native peoples and the English colonists.</br></br>As a group, we believe that our rendition of the Mystic massacre in a virtual experience is a viable and valuable method of giving users insight to the brutal nature of the colonial era. More so than a reading on the event, users will be able to experience the attack as if they were part of it themselves. This provides an additional layer to learning about the attack and is conducive to users being able to put themselves more completely into the shoes of those who were attacked.  
           </p>
         </div>
       </div>
@@ -176,24 +179,10 @@
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Design Concepts<span class="text-muted">&nbsp; An analysis of our aim to increase presence through world design</span></h2>
           <p class="lead">
+            Proper world design is of vital importance to constructing a believable virtual environment that users will be able to find presence in. Through an appropriate dusk-time skybox, contexual geometry in the form of a densely forested area surrounding the camp, fundamental geometry in the number of housing units each individually populated with interactive objects, we believe that our Pequot settlement truly evokes a strong sense of presence. Having our experience set in the late evening allows us to create a more interesting environment through night-time lighting. We use a combination of fire pits and torches to provide soft illumination throughout the camp. The night-time setting also allows us to make use of audio clues such as the chirping of forest wildlife and the crackle of fires that would otherwise be absent, or at least realistically muted, in a day-time environment. This should lead many users to becoming more personally involved with the virtual environment. </br></br>To expand on our use of fundamental geometry in the world, we have a large number of huts to evoke a sense of being in a real community or camp. Each hut is furnished with a source of lighting, usually a bedmat, and other small props which change between each unit for the sake of individualization. Each hut also has a cloth-door that can be moved out of the way (by walking up to, and through, the door) to enter each unit. We rotated the props in each home to make the world a bit more believable - it would be hard to believe that everyone had the same layout to their living space. We believe that the sum of our audiovisual clues comes together to accurately and successfully represent the experience of being in a Pequot camp, setting the stage very well for the user to be a part of the attack in the camp.
           </p>
         </div>
       </div>
-
-      
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Our Social Issue<span class="text-muted">&nbsp; And our sources for it</span></h2>
-          <p class="lead">
-	    <!-- Include The articles we used as data here  -->
-          </p>
-        </div>
-      </div>
-
-
-      
       
     <hr class="featurette-divider">
 
@@ -202,20 +191,14 @@
           <h2 class="featurette-heading">Misc.<span class="text-muted">&nbsp; Notes and Features</span></h2>
           <p class="lead">
             <ul>
-	      <li> Hand tracking
-		<ul>
-		  <li> Advance to the next scene by interacting with the hands of a virtual humans, with your real hands </li>
-		</ul>
-		
-	      <li> Traffic in the street
-		<ul>
-		  <li> The amount of taxis in the traffic in the street changes based on decisions made </li>
-		</ul>
-	      </li>
-	      <li> Breakable pottery, and various objects that can be tossed around </li>
-	      <li> Animated humans to talk to </li>
-	      
-	      <li> Utilizes room scale VR </li>
+              <li> Tactile Feedback</li>
+              <li> Heartrate sound increases as you go near source of danger, like the attackers, or a large fire.</li>
+              <li> Climbable ladders! </li>
+              <li> Per area sound effects, guard tower has wind sound, camp fires have fire sound, overall camp has night time sound </li>
+              <li> Furniture can be interacted with </li>
+              <li> Bushes make sounds as you force your way through them </li>
+              <li> Fire starts at just a few sections of the wall, and slowly spreads around the camp wall until it forms a ring </li>
+              <li> Head tracking + Stereoscopic 3d. We only tracked orientation. (We were unable to record the video in 3d due to limitations of the oculus, but the experience is in stereoscopic 3d.) </li>
               
             </ul>
           </p>
