@@ -33,3 +33,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 1 Mayors Office (Matt).unity
   - enabled: 1
     path: Assets/Scenes/First Accelorated Future.unity
+  - enabled: 1
+    path: Assets/Scenes/Second Accelorated Future.unity

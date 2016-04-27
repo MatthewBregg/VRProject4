@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 
 public class BroSpeechScriptController : MonoBehaviour
@@ -41,8 +42,13 @@ public class BroSpeechScriptController : MonoBehaviour
     public GameObject advisor2;
     private AudioSource source1;
     private AudioSource source2;
+	public GameObject radio;
+	private AudioSource radioAudioSource;
+	public AudioClip radioRegulatedUber;
+	public AudioClip radioDeregulatedUber;
+	private AudioClip radioClip;
 
-    public enum States { Beginning, Advisor1FirstClip, Advisor2FirstClip, Advisor1SecondClip, Advisor2SecondClip, AwaitingPlayerResponse, ChooseUber, ChooseTaxi, Done };
+    public enum States { Beginning, Advisor1FirstClip, Advisor2FirstClip, Advisor1SecondClip, Advisor2SecondClip, AwaitingPlayerResponse, ChooseUber, ChooseTaxi, TransitionTime, PlayingFinalRadioStuff, Done };
 
     private AdvisorAnimationController advisor1Animator;
     private AdvisorAnimationController advisor2Animator;
@@ -59,6 +65,7 @@ public class BroSpeechScriptController : MonoBehaviour
         advisor2Animator = advisor2.GetComponent<AdvisorAnimationController>();
         initializeAudioClips();
         fader = player.GetComponentInChildren<FadeScript>();
+		radioAudioSource = radio.GetComponent<AudioSource> ();
 
     }
     void initializeAudioClips ()
@@ -72,6 +79,7 @@ public class BroSpeechScriptController : MonoBehaviour
             b1 = advisor2Reg1;
             b2 = advisor2Reg2;
             bGotChosen = advisor2Reg3;
+			radioClip = radioRegulatedUber;
         } else
         {
             a1 = advisor1NoReg1;
@@ -81,6 +89,7 @@ public class BroSpeechScriptController : MonoBehaviour
             b1 = advisor2NoReg1;
             b2 = advisor2NoReg2;
             bGotChosen = advisor2NoReg3;
+			radioClip = radioDeregulatedUber;
         }
     }
 
@@ -153,7 +162,7 @@ public class BroSpeechScriptController : MonoBehaviour
 
         if (state == States.ChooseTaxi)
         {
-            state = States.Done;
+            state = States.TransitionTime;
             StaticDecisionsMade.chooseToTakeTaxi = true;
             advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isDisappointed;
 
@@ -166,7 +175,7 @@ public class BroSpeechScriptController : MonoBehaviour
 
         if (state == States.ChooseUber)
         {
-            state = States.Done;
+            state = States.TransitionTime;
             StaticDecisionsMade.chooseToTakeTaxi = false;
             advisor2Animator.currentlyPlaying = AdvisorAnimationEnum.isShakingHandsEnd;
 
@@ -179,7 +188,7 @@ public class BroSpeechScriptController : MonoBehaviour
 
         }
 
-        if (state == States.Done && !source1.isPlaying && !source2.isPlaying)
+        if (state == States.TransitionTime && !source1.isPlaying && !source2.isPlaying)
         {
 
             //Transition scene!
@@ -219,11 +228,25 @@ public class BroSpeechScriptController : MonoBehaviour
                     FadedInFadedOut = true;
                     //Do anything AFTER fade in, screen is done, transition is done
                     Debug.Log("I happen after the player moves and can see again!");
+					state = States.PlayingFinalRadioStuff;
+
                 }
             }
 
             
         }
+		if ( state == States.PlayingFinalRadioStuff ) {
+			state = States.Done;
+			radioAudioSource.Stop ();
+			radioAudioSource.clip = radioClip;
+			radioAudioSource.Play ();
+			//Start playing the final radio stuff
+
+		}
+		if (state == States.Done && !radioAudioSource.isPlaying) {
+			///Transition to scene 3
+			SceneManager.LoadScene("Second Accelorated Future");
+		}
 
 
     }
