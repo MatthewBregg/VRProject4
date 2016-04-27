@@ -6,7 +6,9 @@ public class BroSpeechScriptController : MonoBehaviour
 {
 
     public GameObject player;
-    public FadeScript fader;      
+    private FadeScript fader;
+    public GameObject city;
+    public GameObject colombianRestaurant; 
 
     public AudioClip advisor1Reg1;
     public AudioClip advisor1Reg2;
@@ -195,6 +197,10 @@ public class BroSpeechScriptController : MonoBehaviour
                     FadedIn = true;
                     //Do all the movements, this is when screen is dark.
                     player.transform.position = new Vector3(.85f, -13.9f, 14.97f);
+                    //change sounds
+                    city.GetComponent<AudioSource>().enabled = true;
+                    colombianRestaurant.GetComponent<AudioSource>().enabled = false;
+
                     //Fade in 
                     fader.FadeIn();
                 }
