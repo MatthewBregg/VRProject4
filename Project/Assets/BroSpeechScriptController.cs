@@ -194,7 +194,7 @@ public class BroSpeechScriptController : MonoBehaviour
                 {
                     FadedIn = true;
                     //Do all the movements, this is when screen is dark.
-                    player.transform.position = new Vector3(.85f, -13.6f, 14.97f);
+                    player.transform.position = new Vector3(.85f, -13.9f, 14.97f);
                     //Fade in 
                     fader.FadeIn();
                 }
