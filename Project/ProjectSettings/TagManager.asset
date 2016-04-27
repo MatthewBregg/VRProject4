@@ -11,6 +11,7 @@ TagManager:
   - TrafficA
   - TrafficB
   - TrafficBReverse
+  - TreeToCrashInto
   layers:
   - Default
   - TransparentFX
