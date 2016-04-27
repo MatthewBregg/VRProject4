@@ -127,9 +127,16 @@ public class audioAnimationController : MonoBehaviour {
 		if ( state == States.Done && !source1.isPlaying && !source2.isPlaying ) {
             //Transition scene!
             //Might want to delay this a bit more.
-            SceneManager.LoadScene("First Accelorated Future");
+            StartCoroutine(ChangeSceneAfterTime());
         }
 
 
 	}
+    IEnumerator ChangeSceneAfterTime()
+    {
+        yield return new WaitForSeconds(6.5f);
+
+        // Code to execute after the delay
+        SceneManager.LoadScene("First Accelorated Future");
+    }
 }
