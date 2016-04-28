@@ -5,6 +5,7 @@ public class Get4CarPackFromFactory : MonoBehaviour {
 	public Vector3 position;
 	public CarFactory factory;
 
+
 	// Use this for initialization
 	void Start () {
 		GameObject carPack = factory.getFourPackOfCars ();
@@ -13,6 +14,6 @@ public class Get4CarPackFromFactory : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 }

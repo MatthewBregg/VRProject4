@@ -11,6 +11,7 @@ public class CarFactory : MonoBehaviour {
 	public GameObject fourPackCarPackHighTaxiTypeB;
 
 	public bool serveTaxisQuestionMark;
+	public bool allowedToSwitch = false;
 
 	private static System.Random rnd = new System.Random();
 
@@ -48,6 +49,7 @@ public class CarFactory : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         serveTaxisQuestionMark =  StaticDecisionsMade.chooseToRegulateUber;
+		allowedToSwitch = true;
 	}
 	
 	// Update is called once per frame
