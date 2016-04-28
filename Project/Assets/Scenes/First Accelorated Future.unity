@@ -2225,6 +2225,7 @@ GameObject:
   - 4: {fileID: 8074233}
   - 33: {fileID: 8074235}
   - 23: {fileID: 8074234}
+  - 64: {fileID: 8074236}
   m_Layer: 0
   m_Name: pCylinder4 18
   m_TagString: Untagged
@@ -2280,6 +2281,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 8074232}
+  m_Mesh: {fileID: 4300380, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &8074236
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8074232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300380, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &8610393
 GameObject:
@@ -2496,6 +2509,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 16741447}
+  - 64: {fileID: 16741448}
   m_Layer: 0
   m_Name: group49
   m_TagString: Untagged
@@ -2518,6 +2532,18 @@ Transform:
   - {fileID: 791923631}
   m_Father: {fileID: 182811206}
   m_RootOrder: 7
+--- !u!64 &16741448
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16741446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &20708206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,6 +2693,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 25958048}
+  - 64: {fileID: 25958049}
   m_Layer: 0
   m_Name: group32
   m_TagString: Untagged
@@ -2689,6 +2716,18 @@ Transform:
   - {fileID: 949086503}
   m_Father: {fileID: 7133194}
   m_RootOrder: 4
+--- !u!64 &25958049
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 25958047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &27959784
 GameObject:
   m_ObjectHideFlags: 0
@@ -3217,6 +3256,7 @@ GameObject:
   - 4: {fileID: 50535662}
   - 65: {fileID: 50535664}
   - 54: {fileID: 50535663}
+  - 64: {fileID: 50535665}
   m_Layer: 0
   m_Name: Flan (1)
   m_TagString: Untagged
@@ -3263,10 +3303,22 @@ BoxCollider:
   m_GameObject: {fileID: 50535661}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.34115914, y: 0.13626622, z: 0.3346731}
   m_Center: {x: 0.005149007, y: 0.011841536, z: -0.0039196014}
+--- !u!64 &50535665
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 50535661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &52238701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3576,6 +3628,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 78584284}
+  - 64: {fileID: 78584285}
   m_Layer: 0
   m_Name: group38
   m_TagString: Untagged
@@ -3598,6 +3651,18 @@ Transform:
   - {fileID: 1886143199}
   m_Father: {fileID: 2038483185}
   m_RootOrder: 2
+--- !u!64 &78584285
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 78584283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &85336422
 GameObject:
   m_ObjectHideFlags: 0
@@ -4041,6 +4106,7 @@ GameObject:
   - 4: {fileID: 112562380}
   - 33: {fileID: 112562382}
   - 23: {fileID: 112562381}
+  - 64: {fileID: 112562383}
   m_Layer: 0
   m_Name: pCylinder3 4
   m_TagString: Untagged
@@ -4095,6 +4161,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 112562379}
   m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &112562383
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112562379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &115684732
 GameObject:
   m_ObjectHideFlags: 0
@@ -4106,6 +4184,7 @@ GameObject:
   - 33: {fileID: 115684735}
   - 23: {fileID: 115684734}
   - 64: {fileID: 115684736}
+  - 65: {fileID: 115684737}
   m_Layer: 0
   m_Name: pCube32 (5)
   m_TagString: Untagged
@@ -4168,10 +4247,22 @@ MeshCollider:
   m_GameObject: {fileID: 115684732}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 1
   m_Mesh: {fileID: 4300532, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!65 &115684737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115684732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2326529, y: 5.077816, z: 0.01}
+  m_Center: {x: 0.0000019073486, y: 0, z: -0.0000019073486}
 --- !u!1 &117041882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4932,7 +5023,7 @@ Prefab:
     - target: {fileID: 3380982, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 349576026}
+      objectReference: {fileID: 1390536894}
     - target: {fileID: 11489174, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: vertices.Array.data[0].x
       value: 1.5
@@ -5063,6 +5154,7 @@ GameObject:
   - 4: {fileID: 143542297}
   - 33: {fileID: 143542299}
   - 23: {fileID: 143542298}
+  - 64: {fileID: 143542300}
   m_Layer: 0
   m_Name: pTorus2 23
   m_TagString: Untagged
@@ -5116,6 +5208,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 143542296}
+  m_Mesh: {fileID: 4300412, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &143542300
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 143542296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300412, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &148295533
 GameObject:
@@ -5375,6 +5479,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 155734997}
+  - 64: {fileID: 155734998}
   m_Layer: 0
   m_Name: group44
   m_TagString: Untagged
@@ -5397,6 +5502,18 @@ Transform:
   - {fileID: 711628710}
   m_Father: {fileID: 182811206}
   m_RootOrder: 2
+--- !u!64 &155734998
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 155734996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &156957207
 GameObject:
   m_ObjectHideFlags: 0
@@ -6595,6 +6712,7 @@ GameObject:
   - 4: {fileID: 177480739}
   - 33: {fileID: 177480741}
   - 23: {fileID: 177480740}
+  - 64: {fileID: 177480742}
   m_Layer: 0
   m_Name: pTorus2 18
   m_TagString: Untagged
@@ -6648,6 +6766,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 177480738}
+  m_Mesh: {fileID: 4300382, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &177480742
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 177480738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300382, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1001 &179894063
 Prefab:
@@ -7810,6 +7940,7 @@ GameObject:
   - 4: {fileID: 220639880}
   - 33: {fileID: 220639882}
   - 23: {fileID: 220639881}
+  - 64: {fileID: 220639883}
   m_Layer: 0
   m_Name: pCylinder4 22
   m_TagString: Untagged
@@ -7866,6 +7997,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 220639879}
+  m_Mesh: {fileID: 4300404, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &220639883
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 220639879}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300404, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &221796298
 GameObject:
@@ -8197,6 +8340,7 @@ GameObject:
   - 4: {fileID: 239127778}
   - 65: {fileID: 239127780}
   - 54: {fileID: 239127779}
+  - 64: {fileID: 239127781}
   m_Layer: 0
   m_Name: Flan
   m_TagString: Untagged
@@ -8243,10 +8387,22 @@ BoxCollider:
   m_GameObject: {fileID: 239127777}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.34115914, y: 0.13626622, z: 0.3346731}
   m_Center: {x: 0.005149007, y: 0.011841536, z: -0.0039196014}
+--- !u!64 &239127781
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 239127777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &246440527
 GameObject:
   m_ObjectHideFlags: 0
@@ -8379,6 +8535,8 @@ GameObject:
   - 4: {fileID: 254519583}
   - 33: {fileID: 254519585}
   - 23: {fileID: 254519584}
+  - 64: {fileID: 254519586}
+  - 64: {fileID: 254519587}
   m_Layer: 0
   m_Name: Circle.072 4
   m_TagString: Untagged
@@ -8432,6 +8590,30 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 254519582}
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &254519586
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 254519582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &254519587
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 254519582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
   m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &256803360
 GameObject:
@@ -9546,6 +9728,7 @@ GameObject:
   - 4: {fileID: 311012936}
   - 33: {fileID: 311012938}
   - 23: {fileID: 311012937}
+  - 64: {fileID: 311012939}
   m_Layer: 0
   m_Name: pTorus3 18
   m_TagString: Untagged
@@ -9599,6 +9782,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 311012935}
+  m_Mesh: {fileID: 4300384, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &311012939
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 311012935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300384, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &316199225
 GameObject:
@@ -9671,6 +9866,7 @@ GameObject:
   - 4: {fileID: 319782691}
   - 33: {fileID: 319782693}
   - 23: {fileID: 319782692}
+  - 64: {fileID: 319782694}
   m_Layer: 0
   m_Name: pTorus2 17
   m_TagString: Untagged
@@ -9724,6 +9920,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 319782690}
+  m_Mesh: {fileID: 4300376, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &319782694
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319782690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300376, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &323857269
 GameObject:
@@ -10443,134 +10651,6 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
---- !u!43 &349576026
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexBuffer: 000001000400010005000400010002000500020006000500020003000600030007000600030000000700000004000700
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 13
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
 --- !u!1 &349800213
 GameObject:
   m_ObjectHideFlags: 0
@@ -10793,6 +10873,7 @@ GameObject:
   - 4: {fileID: 369384194}
   - 33: {fileID: 369384196}
   - 23: {fileID: 369384195}
+  - 64: {fileID: 369384197}
   m_Layer: 0
   m_Name: pCylinder2 4
   m_TagString: Untagged
@@ -10846,6 +10927,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 369384193}
+  m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &369384197
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 369384193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &370581026
 GameObject:
@@ -11217,6 +11310,7 @@ GameObject:
   - 4: {fileID: 392363541}
   - 33: {fileID: 392363543}
   - 23: {fileID: 392363542}
+  - 64: {fileID: 392363544}
   m_Layer: 0
   m_Name: pCylinder1 4
   m_TagString: Untagged
@@ -11270,6 +11364,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 392363540}
+  m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &392363544
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392363540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &397134292
 GameObject:
@@ -11453,6 +11559,7 @@ GameObject:
   - 4: {fileID: 416284143}
   - 33: {fileID: 416284145}
   - 23: {fileID: 416284144}
+  - 64: {fileID: 416284146}
   m_Layer: 0
   m_Name: Circle.072 4
   m_TagString: Untagged
@@ -11506,6 +11613,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 416284142}
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &416284146
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416284142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &420155008 stripped
 GameObject:
@@ -12229,6 +12348,7 @@ GameObject:
   - 4: {fileID: 471905064}
   - 33: {fileID: 471905066}
   - 23: {fileID: 471905065}
+  - 64: {fileID: 471905067}
   m_Layer: 0
   m_Name: pCylinder4 26
   m_TagString: Untagged
@@ -12286,6 +12406,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 471905063}
   m_Mesh: {fileID: 4300428, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &471905067
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 471905063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300428, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &472392109
 GameObject:
   m_ObjectHideFlags: 0
@@ -12296,6 +12428,7 @@ GameObject:
   - 4: {fileID: 472392110}
   - 33: {fileID: 472392112}
   - 23: {fileID: 472392111}
+  - 64: {fileID: 472392113}
   m_Layer: 0
   m_Name: pCylinder4 23
   m_TagString: Untagged
@@ -12352,6 +12485,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 472392109}
+  m_Mesh: {fileID: 4300410, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &472392113
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 472392109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300410, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &474242780
 GameObject:
@@ -13194,6 +13339,7 @@ GameObject:
   - 4: {fileID: 525734045}
   - 33: {fileID: 525734047}
   - 23: {fileID: 525734046}
+  - 64: {fileID: 525734048}
   m_Layer: 0
   m_Name: pCylinder1 4
   m_TagString: Untagged
@@ -13247,6 +13393,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 525734044}
+  m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &525734048
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 525734044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &528892491
 GameObject:
@@ -14106,6 +14264,7 @@ GameObject:
   - 4: {fileID: 557274928}
   - 33: {fileID: 557274930}
   - 23: {fileID: 557274929}
+  - 64: {fileID: 557274931}
   m_Layer: 0
   m_Name: pTorus3 24
   m_TagString: Untagged
@@ -14159,6 +14318,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 557274927}
+  m_Mesh: {fileID: 4300420, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &557274931
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 557274927}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300420, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &558152731
 GameObject:
@@ -14435,6 +14606,7 @@ GameObject:
   - 4: {fileID: 564990174}
   - 33: {fileID: 564990176}
   - 23: {fileID: 564990175}
+  - 64: {fileID: 564990177}
   m_Layer: 0
   m_Name: pCylinder2 4
   m_TagString: Untagged
@@ -14488,6 +14660,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 564990173}
+  m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &564990177
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564990173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &567090538
 GameObject:
@@ -14651,6 +14835,7 @@ GameObject:
   - 4: {fileID: 568315024}
   - 33: {fileID: 568315026}
   - 23: {fileID: 568315025}
+  - 64: {fileID: 568315027}
   m_Layer: 0
   m_Name: pCylinder1 4
   m_TagString: Untagged
@@ -14704,6 +14889,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 568315023}
+  m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &568315027
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 568315023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &568712195
 GameObject:
@@ -14852,6 +15049,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 573425485}
+  - 64: {fileID: 573425486}
   m_Layer: 0
   m_Name: group43
   m_TagString: Untagged
@@ -14874,6 +15072,18 @@ Transform:
   - {fileID: 2002856680}
   m_Father: {fileID: 182811206}
   m_RootOrder: 1
+--- !u!64 &573425486
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573425484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1001 &573635012
 Prefab:
   m_ObjectHideFlags: 0
@@ -14938,6 +15148,7 @@ GameObject:
   - 4: {fileID: 575827297}
   - 33: {fileID: 575827299}
   - 23: {fileID: 575827298}
+  - 64: {fileID: 575827300}
   m_Layer: 0
   m_Name: Circle.072 4
   m_TagString: Untagged
@@ -14991,6 +15202,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 575827296}
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &575827300
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 575827296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &579518984
 GameObject:
@@ -16472,6 +16695,9 @@ GameObject:
   - 4: {fileID: 634631472}
   - 33: {fileID: 634631474}
   - 23: {fileID: 634631473}
+  - 54: {fileID: 634631476}
+  - 136: {fileID: 634631477}
+  - 65: {fileID: 634631475}
   m_Layer: 0
   m_Name: Circle.068
   m_TagString: Untagged
@@ -16486,7 +16712,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 634631471}
   m_LocalRotation: {x: -0.0000005591472, y: 0.7071068, z: 0.70710677, w: 0.0000005591473}
-  m_LocalPosition: {x: 0.30117142, y: 2.2721694, z: 2.732861}
+  m_LocalPosition: {x: 0.301, y: 2.315, z: 2.734}
   m_LocalScale: {x: 6.809637, y: 6.809637, z: 6.809637}
   m_Children: []
   m_Father: {fileID: 954974610}
@@ -16526,6 +16752,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 634631471}
   m_Mesh: {fileID: 4300020, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!65 &634631475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 634631471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03462297, y: 0.04026196, z: 0.029870344}
+  m_Center: {x: -0.0000000010389654, y: 0.0028197402, z: 0.014934933}
+--- !u!54 &634631476
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 634631471}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &634631477
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 634631471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.017311485
+  m_Height: 0.04026196
+  m_Direction: 1
+  m_Center: {x: -0.0000000010389654, y: 0.0028195018, z: 0.014934694}
 --- !u!1 &636194751
 GameObject:
   m_ObjectHideFlags: 0
@@ -16666,6 +16932,7 @@ GameObject:
   - 4: {fileID: 638515317}
   - 33: {fileID: 638515319}
   - 23: {fileID: 638515318}
+  - 64: {fileID: 638515320}
   m_Layer: 0
   m_Name: pCylinder4 27
   m_TagString: Untagged
@@ -16722,6 +16989,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 638515316}
+  m_Mesh: {fileID: 4300434, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &638515320
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 638515316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300434, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &638667099
 GameObject:
@@ -16794,6 +17073,7 @@ GameObject:
   - 4: {fileID: 639622109}
   - 33: {fileID: 639622111}
   - 23: {fileID: 639622110}
+  - 64: {fileID: 639622112}
   m_Layer: 0
   m_Name: pTorus3 28
   m_TagString: Untagged
@@ -16847,6 +17127,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 639622108}
+  m_Mesh: {fileID: 4300444, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &639622112
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 639622108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300444, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &644327445
 GameObject:
@@ -19398,6 +19690,7 @@ GameObject:
   - 4: {fileID: 711628710}
   - 33: {fileID: 711628712}
   - 23: {fileID: 711628711}
+  - 64: {fileID: 711628713}
   m_Layer: 0
   m_Name: pTorus3 22
   m_TagString: Untagged
@@ -19451,6 +19744,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 711628709}
+  m_Mesh: {fileID: 4300408, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &711628713
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 711628709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300408, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &711919512
 GameObject:
@@ -21532,6 +21837,7 @@ GameObject:
   - 4: {fileID: 742624635}
   - 65: {fileID: 742624637}
   - 54: {fileID: 742624636}
+  - 64: {fileID: 742624638}
   m_Layer: 0
   m_Name: Flan (4)
   m_TagString: Untagged
@@ -21578,10 +21884,22 @@ BoxCollider:
   m_GameObject: {fileID: 742624634}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.34115914, y: 0.13626622, z: 0.3346731}
   m_Center: {x: 0.005149007, y: 0.011841536, z: -0.0039196014}
+--- !u!64 &742624638
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742624634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &746330235
 GameObject:
   m_ObjectHideFlags: 0
@@ -21653,6 +21971,7 @@ GameObject:
   - 4: {fileID: 748433961}
   - 65: {fileID: 748433963}
   - 54: {fileID: 748433962}
+  - 64: {fileID: 748433964}
   m_Layer: 0
   m_Name: Flan (5)
   m_TagString: Untagged
@@ -21690,7 +22009,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &748433963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21699,10 +22018,22 @@ BoxCollider:
   m_GameObject: {fileID: 748433960}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.34115914, y: 0.13626622, z: 0.3346731}
   m_Center: {x: 0.005149007, y: 0.011841536, z: -0.0039196014}
+--- !u!64 &748433964
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 748433960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 0}
 --- !u!1 &748469224
 GameObject:
   m_ObjectHideFlags: 0
@@ -21836,6 +22167,7 @@ GameObject:
   - 4: {fileID: 748785969}
   - 33: {fileID: 748785971}
   - 23: {fileID: 748785970}
+  - 64: {fileID: 748785972}
   m_Layer: 0
   m_Name: pTorus2 7
   m_TagString: Untagged
@@ -21889,6 +22221,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 748785968}
+  m_Mesh: {fileID: 4300504, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &748785972
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 748785968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300504, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &750042037
 GameObject:
@@ -22392,6 +22736,8 @@ GameObject:
   - 4: {fileID: 762451151}
   - 33: {fileID: 762451153}
   - 23: {fileID: 762451152}
+  - 64: {fileID: 762451154}
+  - 54: {fileID: 762451155}
   m_Layer: 0
   m_Name: Cylinder.001
   m_TagString: Untagged
@@ -22446,6 +22792,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 762451150}
   m_Mesh: {fileID: 4300082, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &762451154
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 762451150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300082, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!54 &762451155
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 762451150}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &767732765
 GameObject:
   m_ObjectHideFlags: 0
@@ -22861,6 +23234,7 @@ GameObject:
   - 4: {fileID: 791923631}
   - 33: {fileID: 791923633}
   - 23: {fileID: 791923632}
+  - 64: {fileID: 791923634}
   m_Layer: 0
   m_Name: pTorus3 27
   m_TagString: Untagged
@@ -22915,6 +23289,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 791923630}
   m_Mesh: {fileID: 4300438, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &791923634
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 791923630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300438, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &793671249
 GameObject:
   m_ObjectHideFlags: 0
@@ -22925,6 +23311,7 @@ GameObject:
   - 4: {fileID: 793671250}
   - 33: {fileID: 793671252}
   - 23: {fileID: 793671251}
+  - 64: {fileID: 793671253}
   m_Layer: 0
   m_Name: Circle.072 4
   m_TagString: Untagged
@@ -22978,6 +23365,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 793671249}
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &793671253
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793671249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &795088324
 GameObject:
@@ -23776,6 +24175,7 @@ GameObject:
   - 4: {fileID: 832610637}
   - 33: {fileID: 832610639}
   - 23: {fileID: 832610638}
+  - 64: {fileID: 832610640}
   m_Layer: 0
   m_Name: pTorus3 26
   m_TagString: Untagged
@@ -23829,6 +24229,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 832610636}
+  m_Mesh: {fileID: 4300432, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &832610640
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 832610636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300432, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &833881453
 GameObject:
@@ -24370,6 +24782,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 877433157}
+  - 64: {fileID: 877433158}
   m_Layer: 0
   m_Name: group47
   m_TagString: Untagged
@@ -24392,6 +24805,18 @@ Transform:
   - {fileID: 1394138845}
   m_Father: {fileID: 182811206}
   m_RootOrder: 5
+--- !u!64 &877433158
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 877433156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1001 &878349399
 Prefab:
   m_ObjectHideFlags: 0
@@ -24867,6 +25292,7 @@ GameObject:
   - 4: {fileID: 899127510}
   - 33: {fileID: 899127512}
   - 23: {fileID: 899127511}
+  - 64: {fileID: 899127513}
   m_Layer: 0
   m_Name: pTorus2 9
   m_TagString: Untagged
@@ -24920,6 +25346,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 899127509}
+  m_Mesh: {fileID: 4300516, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &899127513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 899127509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300516, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &899921470
 GameObject:
@@ -25272,6 +25710,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 909779573}
+  - 64: {fileID: 909779574}
   m_Layer: 0
   m_Name: group34
   m_TagString: Untagged
@@ -25294,6 +25733,18 @@ Transform:
   - {fileID: 1119671658}
   m_Father: {fileID: 7133194}
   m_RootOrder: 6
+--- !u!64 &909779574
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 909779572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &911952091
 GameObject:
   m_ObjectHideFlags: 0
@@ -25779,6 +26230,7 @@ GameObject:
   - 4: {fileID: 921546611}
   - 33: {fileID: 921546613}
   - 23: {fileID: 921546612}
+  - 64: {fileID: 921546614}
   m_Layer: 0
   m_Name: pTorus3 8
   m_TagString: Untagged
@@ -25832,6 +26284,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 921546610}
+  m_Mesh: {fileID: 4300508, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &921546614
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 921546610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300508, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &924758795
 GameObject:
@@ -26505,6 +26969,7 @@ GameObject:
   - 4: {fileID: 949086503}
   - 33: {fileID: 949086505}
   - 23: {fileID: 949086504}
+  - 64: {fileID: 949086506}
   m_Layer: 0
   m_Name: pTorus3 17
   m_TagString: Untagged
@@ -26558,6 +27023,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 949086502}
+  m_Mesh: {fileID: 4300378, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &949086506
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949086502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300378, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &949960462
 GameObject:
@@ -26974,6 +27451,7 @@ GameObject:
   - 4: {fileID: 962964223}
   - 33: {fileID: 962964225}
   - 23: {fileID: 962964224}
+  - 64: {fileID: 962964226}
   m_Layer: 0
   m_Name: pCylinder4 24
   m_TagString: Untagged
@@ -27030,6 +27508,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 962964222}
+  m_Mesh: {fileID: 4300416, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &962964226
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 962964222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300416, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &969822164
 GameObject:
@@ -27166,6 +27656,7 @@ GameObject:
   - 4: {fileID: 972648019}
   - 33: {fileID: 972648021}
   - 23: {fileID: 972648020}
+  - 64: {fileID: 972648022}
   m_Layer: 0
   m_Name: pCylinder3 4
   m_TagString: Untagged
@@ -27219,6 +27710,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 972648018}
+  m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &972648022
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 972648018}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1001 &974753882
 Prefab:
@@ -28491,6 +28994,7 @@ GameObject:
   - 4: {fileID: 1036478811}
   - 33: {fileID: 1036478813}
   - 23: {fileID: 1036478812}
+  - 64: {fileID: 1036478814}
   m_Layer: 0
   m_Name: pTorus3 7
   m_TagString: Untagged
@@ -28544,6 +29048,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1036478810}
+  m_Mesh: {fileID: 4300502, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1036478814
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1036478810}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300502, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1039926890
 GameObject:
@@ -29131,6 +29647,7 @@ GameObject:
   - 4: {fileID: 1056884763}
   - 33: {fileID: 1056884765}
   - 23: {fileID: 1056884764}
+  - 64: {fileID: 1056884766}
   m_Layer: 0
   m_Name: Circle.072 4
   m_TagString: Untagged
@@ -29185,6 +29702,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1056884762}
   m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1056884766
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1056884762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1056923111
 GameObject:
   m_ObjectHideFlags: 0
@@ -29226,6 +29755,7 @@ GameObject:
   - 4: {fileID: 1060489291}
   - 33: {fileID: 1060489293}
   - 23: {fileID: 1060489292}
+  - 64: {fileID: 1060489294}
   m_Layer: 0
   m_Name: pTorus2 8
   m_TagString: Untagged
@@ -29279,6 +29809,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1060489290}
+  m_Mesh: {fileID: 4300510, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1060489294
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1060489290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300510, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1063248224
 GameObject:
@@ -30360,6 +30902,7 @@ GameObject:
   - 4: {fileID: 1087895516}
   - 33: {fileID: 1087895518}
   - 23: {fileID: 1087895517}
+  - 64: {fileID: 1087895519}
   m_Layer: 0
   m_Name: pTorus2 28
   m_TagString: Untagged
@@ -30414,6 +30957,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1087895515}
   m_Mesh: {fileID: 4300442, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1087895519
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087895515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300442, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1093074795
 GameObject:
   m_ObjectHideFlags: 0
@@ -30424,6 +30979,7 @@ GameObject:
   - 4: {fileID: 1093074796}
   - 33: {fileID: 1093074798}
   - 23: {fileID: 1093074797}
+  - 64: {fileID: 1093074799}
   m_Layer: 0
   m_Name: pCylinder4 28
   m_TagString: Untagged
@@ -30480,6 +31036,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1093074795}
+  m_Mesh: {fileID: 4300440, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1093074799
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1093074795}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300440, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1095101444
 GameObject:
@@ -42089,6 +42657,7 @@ GameObject:
   - 4: {fileID: 1119671658}
   - 33: {fileID: 1119671660}
   - 23: {fileID: 1119671659}
+  - 64: {fileID: 1119671661}
   m_Layer: 0
   m_Name: pTorus3 19
   m_TagString: Untagged
@@ -42142,6 +42711,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1119671657}
+  m_Mesh: {fileID: 4300390, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1119671661
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1119671657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300390, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1122496008
 GameObject:
@@ -42379,6 +42960,7 @@ GameObject:
   - 4: {fileID: 1134814694}
   - 65: {fileID: 1134814696}
   - 54: {fileID: 1134814695}
+  - 64: {fileID: 1134814697}
   m_Layer: 0
   m_Name: Flan (6)
   m_TagString: Untagged
@@ -42425,10 +43007,22 @@ BoxCollider:
   m_GameObject: {fileID: 1134814693}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.34115914, y: 0.13626622, z: 0.3346731}
   m_Center: {x: 0.005149007, y: 0.011841536, z: -0.0039196014}
+--- !u!64 &1134814697
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1134814693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1139835115
 GameObject:
   m_ObjectHideFlags: 0
@@ -43523,6 +44117,7 @@ GameObject:
   - 4: {fileID: 1178329229}
   - 33: {fileID: 1178329231}
   - 23: {fileID: 1178329230}
+  - 64: {fileID: 1178329232}
   m_Layer: 0
   m_Name: pCylinder4 7
   m_TagString: Untagged
@@ -43578,6 +44173,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1178329228}
+  m_Mesh: {fileID: 4300500, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1178329232
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178329228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300500, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1180458969
 GameObject:
@@ -43653,6 +44260,7 @@ GameObject:
   - 4: {fileID: 1180695543}
   - 33: {fileID: 1180695545}
   - 23: {fileID: 1180695544}
+  - 64: {fileID: 1180695546}
   m_Layer: 0
   m_Name: pCylinder1 4
   m_TagString: Untagged
@@ -43706,6 +44314,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1180695542}
+  m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1180695546
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180695542}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1180952430
 GameObject:
@@ -44110,6 +44730,7 @@ GameObject:
   - 4: {fileID: 1203619093}
   - 33: {fileID: 1203619095}
   - 23: {fileID: 1203619094}
+  - 64: {fileID: 1203619096}
   m_Layer: 0
   m_Name: pCylinder2 4
   m_TagString: Untagged
@@ -44163,6 +44784,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1203619092}
+  m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1203619096
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1203619092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!4 &1205562368 stripped
 Transform:
@@ -44786,6 +45419,7 @@ GameObject:
   - 4: {fileID: 1229115619}
   - 33: {fileID: 1229115621}
   - 23: {fileID: 1229115620}
+  - 64: {fileID: 1229115622}
   m_Layer: 0
   m_Name: pCylinder4 6
   m_TagString: Untagged
@@ -44841,6 +45475,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1229115618}
+  m_Mesh: {fileID: 4300494, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1229115622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1229115618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300494, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1001 &1233551628
 Prefab:
@@ -44906,6 +45552,7 @@ GameObject:
   - 4: {fileID: 1233641999}
   - 33: {fileID: 1233642001}
   - 23: {fileID: 1233642000}
+  - 64: {fileID: 1233642002}
   m_Layer: 0
   m_Name: pCylinder3 4
   m_TagString: Untagged
@@ -44959,6 +45606,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1233641998}
+  m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1233642002
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1233641998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1233855939
 GameObject:
@@ -45097,6 +45756,7 @@ GameObject:
   - 4: {fileID: 1236950464}
   - 33: {fileID: 1236950466}
   - 23: {fileID: 1236950465}
+  - 64: {fileID: 1236950467}
   m_Layer: 0
   m_Name: pCylinder3 4
   m_TagString: Untagged
@@ -45151,6 +45811,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1236950463}
   m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1236950467
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236950463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1243892590
 GameObject:
   m_ObjectHideFlags: 0
@@ -45161,6 +45833,7 @@ GameObject:
   - 4: {fileID: 1243892591}
   - 33: {fileID: 1243892593}
   - 23: {fileID: 1243892592}
+  - 64: {fileID: 1243892594}
   m_Layer: 0
   m_Name: pCylinder1 4
   m_TagString: Untagged
@@ -45214,6 +45887,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1243892590}
+  m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1243892594
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1243892590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1246384625
 GameObject:
@@ -45403,6 +46088,7 @@ GameObject:
   - 4: {fileID: 1253210697}
   - 33: {fileID: 1253210699}
   - 23: {fileID: 1253210698}
+  - 64: {fileID: 1253210700}
   m_Layer: 0
   m_Name: pCylinder4 17
   m_TagString: Untagged
@@ -45458,6 +46144,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1253210696}
+  m_Mesh: {fileID: 4300374, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1253210700
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1253210696}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300374, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1001 &1253274156
 Prefab:
@@ -45817,6 +46515,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1270422573}
+  - 64: {fileID: 1270422574}
   m_Layer: 0
   m_Name: group41
   m_TagString: Untagged
@@ -45839,6 +46538,18 @@ Transform:
   - {fileID: 1597260731}
   m_Father: {fileID: 2038483185}
   m_RootOrder: 5
+--- !u!64 &1270422574
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1270422572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1271485760
 GameObject:
   m_ObjectHideFlags: 0
@@ -45849,6 +46560,7 @@ GameObject:
   - 4: {fileID: 1271485761}
   - 33: {fileID: 1271485763}
   - 23: {fileID: 1271485762}
+  - 64: {fileID: 1271485764}
   m_Layer: 0
   m_Name: Circle.072 4
   m_TagString: Untagged
@@ -45902,6 +46614,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1271485760}
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1271485764
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1271485760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1271783942
 GameObject:
@@ -45988,6 +46712,7 @@ GameObject:
   - 4: {fileID: 1272069510}
   - 33: {fileID: 1272069512}
   - 23: {fileID: 1272069511}
+  - 64: {fileID: 1272069513}
   m_Layer: 0
   m_Name: pCylinder4 9
   m_TagString: Untagged
@@ -46043,6 +46768,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1272069509}
+  m_Mesh: {fileID: 4300512, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1272069513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1272069509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300512, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1001 &1272734865
 Prefab:
@@ -46510,6 +47247,7 @@ GameObject:
   - 4: {fileID: 1304182717}
   - 33: {fileID: 1304182719}
   - 23: {fileID: 1304182718}
+  - 64: {fileID: 1304182720}
   m_Layer: 0
   m_Name: pTorus2 26
   m_TagString: Untagged
@@ -46563,6 +47301,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1304182716}
+  m_Mesh: {fileID: 4300430, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1304182720
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1304182716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300430, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1305580317
 GameObject:
@@ -47779,6 +48529,7 @@ GameObject:
   - 4: {fileID: 1344641213}
   - 33: {fileID: 1344641215}
   - 23: {fileID: 1344641214}
+  - 64: {fileID: 1344641216}
   m_Layer: 0
   m_Name: pTorus2 27
   m_TagString: Untagged
@@ -47832,6 +48583,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1344641212}
+  m_Mesh: {fileID: 4300436, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1344641216
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344641212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300436, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1346414872
 GameObject:
@@ -48081,6 +48844,7 @@ GameObject:
   - 4: {fileID: 1356776569}
   - 33: {fileID: 1356776571}
   - 23: {fileID: 1356776570}
+  - 64: {fileID: 1356776572}
   m_Layer: 0
   m_Name: pTorus2 22
   m_TagString: Untagged
@@ -48135,6 +48899,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1356776568}
   m_Mesh: {fileID: 4300406, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1356776572
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1356776568}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300406, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1357149682
 GameObject:
   m_ObjectHideFlags: 0
@@ -48145,6 +48921,7 @@ GameObject:
   - 4: {fileID: 1357149683}
   - 33: {fileID: 1357149685}
   - 23: {fileID: 1357149684}
+  - 64: {fileID: 1357149686}
   m_Layer: 0
   m_Name: pTorus2 6
   m_TagString: Untagged
@@ -48198,6 +48975,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1357149682}
+  m_Mesh: {fileID: 4300498, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1357149686
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357149682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300498, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1360770564
 GameObject:
@@ -48337,6 +49126,7 @@ GameObject:
   - 4: {fileID: 1361520282}
   - 33: {fileID: 1361520284}
   - 23: {fileID: 1361520283}
+  - 64: {fileID: 1361520285}
   m_Layer: 0
   m_Name: pCylinder2 4
   m_TagString: Untagged
@@ -48391,6 +49181,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1361520281}
   m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1361520285
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1361520281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1362489589
 GameObject:
   m_ObjectHideFlags: 0
@@ -48401,6 +49203,7 @@ GameObject:
   - 4: {fileID: 1362489590}
   - 33: {fileID: 1362489592}
   - 23: {fileID: 1362489591}
+  - 64: {fileID: 1362489593}
   m_Layer: 0
   m_Name: pCylinder3 4
   m_TagString: Untagged
@@ -48454,6 +49257,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1362489589}
+  m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1362489593
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362489589}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1362667085
 GameObject:
@@ -48529,6 +49344,7 @@ GameObject:
   - 4: {fileID: 1367509270}
   - 65: {fileID: 1367509272}
   - 54: {fileID: 1367509271}
+  - 64: {fileID: 1367509273}
   m_Layer: 0
   m_Name: Flan (3)
   m_TagString: Untagged
@@ -48575,10 +49391,22 @@ BoxCollider:
   m_GameObject: {fileID: 1367509269}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.34115914, y: 0.13626622, z: 0.3346731}
   m_Center: {x: 0.005149007, y: 0.011841536, z: -0.0039196014}
+--- !u!64 &1367509273
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1367509269}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1368426655
 GameObject:
   m_ObjectHideFlags: 0
@@ -48726,6 +49554,7 @@ GameObject:
   - 4: {fileID: 1371200888}
   - 33: {fileID: 1371200890}
   - 23: {fileID: 1371200889}
+  - 64: {fileID: 1371200891}
   m_Layer: 0
   m_Name: pTorus2 21
   m_TagString: Untagged
@@ -48779,6 +49608,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1371200887}
+  m_Mesh: {fileID: 4300400, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1371200891
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371200887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300400, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!4 &1375659623 stripped
 Transform:
@@ -49415,6 +50256,134 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!43 &1390536894
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000001000400010005000400010002000500020006000500020003000600030007000600030000000700000004000700
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 13
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &1392464802
 GameObject:
   m_ObjectHideFlags: 0
@@ -49456,6 +50425,7 @@ GameObject:
   - 4: {fileID: 1394138845}
   - 33: {fileID: 1394138847}
   - 23: {fileID: 1394138846}
+  - 64: {fileID: 1394138848}
   m_Layer: 0
   m_Name: pTorus3 25
   m_TagString: Untagged
@@ -49510,6 +50480,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394138844}
   m_Mesh: {fileID: 4300426, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1394138848
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394138844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300426, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1395051278
 GameObject:
   m_ObjectHideFlags: 0
@@ -49520,6 +50502,7 @@ GameObject:
   - 4: {fileID: 1395051279}
   - 33: {fileID: 1395051281}
   - 23: {fileID: 1395051280}
+  - 64: {fileID: 1395051282}
   m_Layer: 0
   m_Name: pCylinder2 4
   m_TagString: Untagged
@@ -49573,6 +50556,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1395051278}
+  m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1395051282
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395051278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1401106874
 GameObject:
@@ -50115,6 +51110,7 @@ GameObject:
   - 4: {fileID: 1435563178}
   - 33: {fileID: 1435563180}
   - 23: {fileID: 1435563179}
+  - 64: {fileID: 1435563181}
   m_Layer: 0
   m_Name: pCylinder2 4
   m_TagString: Untagged
@@ -50168,6 +51164,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1435563177}
+  m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1435563181
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1435563177}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!4 &1450364514 stripped
 Transform:
@@ -50375,6 +51383,7 @@ GameObject:
   - 4: {fileID: 1453343580}
   - 33: {fileID: 1453343582}
   - 23: {fileID: 1453343581}
+  - 64: {fileID: 1453343583}
   m_Layer: 0
   m_Name: pCylinder3 4
   m_TagString: Untagged
@@ -50428,6 +51437,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1453343579}
+  m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1453343583
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1453343579}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1453983603
 GameObject:
@@ -51399,6 +52420,7 @@ GameObject:
   - 4: {fileID: 1512215459}
   - 33: {fileID: 1512215461}
   - 23: {fileID: 1512215460}
+  - 64: {fileID: 1512215462}
   m_Layer: 0
   m_Name: Circle.072 4
   m_TagString: Untagged
@@ -51452,6 +52474,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1512215458}
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1512215462
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1512215458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1518937652
 GameObject:
@@ -51527,6 +52561,7 @@ GameObject:
   - 4: {fileID: 1521411701}
   - 33: {fileID: 1521411703}
   - 23: {fileID: 1521411702}
+  - 64: {fileID: 1521411704}
   m_Layer: 0
   m_Name: Circle.072 4
   m_TagString: Untagged
@@ -51580,6 +52615,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1521411700}
+  m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1521411704
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521411700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300248, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1522234186
 GameObject:
@@ -53117,6 +54164,7 @@ GameObject:
   - 4: {fileID: 1588123050}
   - 33: {fileID: 1588123052}
   - 23: {fileID: 1588123051}
+  - 64: {fileID: 1588123053}
   m_Layer: 0
   m_Name: pTorus2 19
   m_TagString: Untagged
@@ -53170,6 +54218,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588123049}
+  m_Mesh: {fileID: 4300388, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1588123053
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1588123049}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300388, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1001 &1588820693
 Prefab:
@@ -53430,6 +54490,7 @@ GameObject:
   - 4: {fileID: 1595167733}
   - 33: {fileID: 1595167735}
   - 23: {fileID: 1595167734}
+  - 64: {fileID: 1595167736}
   m_Layer: 0
   m_Name: pCylinder2 4
   m_TagString: Untagged
@@ -53484,6 +54545,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1595167732}
   m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1595167736
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595167732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1597260730
 GameObject:
   m_ObjectHideFlags: 0
@@ -53494,6 +54567,7 @@ GameObject:
   - 4: {fileID: 1597260731}
   - 33: {fileID: 1597260733}
   - 23: {fileID: 1597260732}
+  - 64: {fileID: 1597260734}
   m_Layer: 0
   m_Name: pTorus3 9
   m_TagString: Untagged
@@ -53547,6 +54621,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1597260730}
+  m_Mesh: {fileID: 4300514, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1597260734
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1597260730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300514, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1601904598
 GameObject:
@@ -54115,7 +55201,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300482, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1632679738
 GameObject:
@@ -54127,6 +55213,7 @@ GameObject:
   - 4: {fileID: 1632679739}
   - 65: {fileID: 1632679741}
   - 54: {fileID: 1632679740}
+  - 64: {fileID: 1632679742}
   m_Layer: 0
   m_Name: Flan (7)
   m_TagString: Untagged
@@ -54173,10 +55260,22 @@ BoxCollider:
   m_GameObject: {fileID: 1632679738}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.34115914, y: 0.13626622, z: 0.3346731}
   m_Center: {x: 0.005149007, y: 0.011841536, z: -0.0039196014}
+--- !u!64 &1632679742
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632679738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1633958128
 GameObject:
   m_ObjectHideFlags: 0
@@ -55193,6 +56292,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1638297307}
+  - 64: {fileID: 1638297309}
+  - 64: {fileID: 1638297308}
+  - 54: {fileID: 1638297310}
   m_Layer: 0
   m_Name: group35
   m_TagString: Untagged
@@ -55206,8 +56308,8 @@ Transform:
   m_PrefabParentObject: {fileID: 430054, guid: 479c4035bb563be4aac3b19d1286e22d, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1638297306}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.524, y: -0.28, z: 0.634}
+  m_LocalRotation: {x: 0.00003759656, y: -0.000034163066, z: -0.000087080756, w: 1}
+  m_LocalPosition: {x: 3.524, y: -0.283, z: 0.634}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1632071736}
@@ -55215,6 +56317,45 @@ Transform:
   - {fileID: 1847514139}
   m_Father: {fileID: 2038483185}
   m_RootOrder: 0
+--- !u!64 &1638297308
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1638297306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 0}
+--- !u!64 &1638297309
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1638297306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
+--- !u!54 &1638297310
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1638297306}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1638896453
 GameObject:
   m_ObjectHideFlags: 0
@@ -55737,6 +56878,7 @@ GameObject:
   - 4: {fileID: 1655608680}
   - 33: {fileID: 1655608682}
   - 23: {fileID: 1655608681}
+  - 64: {fileID: 1655608683}
   m_Layer: 0
   m_Name: pCylinder1 4
   m_TagString: Untagged
@@ -55790,6 +56932,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1655608679}
+  m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1655608683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1655608679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1001 &1655882623
 Prefab:
@@ -56847,6 +58001,7 @@ GameObject:
   - 4: {fileID: 1704902031}
   - 33: {fileID: 1704902033}
   - 23: {fileID: 1704902032}
+  - 64: {fileID: 1704902034}
   m_Layer: 0
   m_Name: pCylinder2 4
   m_TagString: Untagged
@@ -56901,6 +58056,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1704902030}
   m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1704902034
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1704902030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300250, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1708258364
 GameObject:
   m_ObjectHideFlags: 0
@@ -56911,6 +58078,7 @@ GameObject:
   - 4: {fileID: 1708258365}
   - 33: {fileID: 1708258367}
   - 23: {fileID: 1708258366}
+  - 64: {fileID: 1708258368}
   m_Layer: 0
   m_Name: pCylinder4 8
   m_TagString: Untagged
@@ -56966,6 +58134,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1708258364}
+  m_Mesh: {fileID: 4300506, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1708258368
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708258364}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300506, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1709434193
 GameObject:
@@ -57128,6 +58308,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1711987927}
+  - 64: {fileID: 1711987928}
   m_Layer: 0
   m_Name: group40
   m_TagString: Untagged
@@ -57150,6 +58331,18 @@ Transform:
   - {fileID: 921546611}
   m_Father: {fileID: 2038483185}
   m_RootOrder: 4
+--- !u!64 &1711987928
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1711987926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1713106325
 GameObject:
   m_ObjectHideFlags: 0
@@ -57251,6 +58444,7 @@ GameObject:
   - 4: {fileID: 1716877215}
   - 33: {fileID: 1716877217}
   - 23: {fileID: 1716877216}
+  - 64: {fileID: 1716877218}
   m_Layer: 0
   m_Name: pCylinder4 25
   m_TagString: Untagged
@@ -57307,6 +58501,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1716877214}
+  m_Mesh: {fileID: 4300422, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1716877218
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1716877214}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300422, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!4 &1718192324 stripped
 Transform:
@@ -57910,6 +59116,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1736882594}
+  - 64: {fileID: 1736882595}
   m_Layer: 0
   m_Name: group48
   m_TagString: Untagged
@@ -57932,6 +59139,18 @@ Transform:
   - {fileID: 832610637}
   m_Father: {fileID: 182811206}
   m_RootOrder: 6
+--- !u!64 &1736882595
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1736882593}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1736917711
 GameObject:
   m_ObjectHideFlags: 0
@@ -58028,6 +59247,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1739950082}
+  - 64: {fileID: 1739950083}
   m_Layer: 0
   m_Name: group33
   m_TagString: Untagged
@@ -58050,6 +59270,18 @@ Transform:
   - {fileID: 311012936}
   m_Father: {fileID: 7133194}
   m_RootOrder: 5
+--- !u!64 &1739950083
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1739950081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1739977618
 GameObject:
   m_ObjectHideFlags: 0
@@ -58442,6 +59674,7 @@ GameObject:
   - 4: {fileID: 1764814670}
   - 33: {fileID: 1764814672}
   - 23: {fileID: 1764814671}
+  - 64: {fileID: 1764814673}
   m_Layer: 0
   m_Name: pCylinder4 21
   m_TagString: Untagged
@@ -58498,6 +59731,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1764814669}
+  m_Mesh: {fileID: 4300398, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1764814673
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1764814669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300398, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1765810405
 GameObject:
@@ -58721,6 +59966,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1769196072}
+  - 64: {fileID: 1769196073}
   m_Layer: 0
   m_Name: group46
   m_TagString: Untagged
@@ -58743,6 +59989,18 @@ Transform:
   - {fileID: 557274928}
   m_Father: {fileID: 182811206}
   m_RootOrder: 4
+--- !u!64 &1769196073
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1769196071}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1776747840
 GameObject:
   m_ObjectHideFlags: 0
@@ -58848,6 +60106,7 @@ GameObject:
   - 4: {fileID: 1788808673}
   - 33: {fileID: 1788808675}
   - 23: {fileID: 1788808674}
+  - 64: {fileID: 1788808676}
   m_Layer: 0
   m_Name: pCylinder3 4
   m_TagString: Untagged
@@ -58901,6 +60160,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1788808672}
+  m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1788808676
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1788808672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!4 &1795314041 stripped
 Transform:
@@ -59515,6 +60786,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1811800830}
+  - 64: {fileID: 1811800831}
   m_Layer: 0
   m_Name: group45
   m_TagString: Untagged
@@ -59537,6 +60809,18 @@ Transform:
   - {fileID: 1919313418}
   m_Father: {fileID: 182811206}
   m_RootOrder: 3
+--- !u!64 &1811800831
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1811800829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &1814748785
 GameObject:
   m_ObjectHideFlags: 0
@@ -60196,6 +61480,7 @@ GameObject:
   - 4: {fileID: 1847514139}
   - 33: {fileID: 1847514141}
   - 23: {fileID: 1847514140}
+  - 64: {fileID: 1847514142}
   m_Layer: 0
   m_Name: pTorus3 4
   m_TagString: Untagged
@@ -60249,6 +61534,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1847514138}
+  m_Mesh: {fileID: 4300486, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1847514142
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1847514138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300486, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1847661734 stripped
 GameObject:
@@ -60597,6 +61894,9 @@ GameObject:
   - 4: {fileID: 1868408668}
   - 33: {fileID: 1868408670}
   - 23: {fileID: 1868408669}
+  - 54: {fileID: 1868408672}
+  - 64: {fileID: 1868408671}
+  - 136: {fileID: 1868408673}
   m_Layer: 0
   m_Name: Circle.019
   m_TagString: Untagged
@@ -60611,7 +61911,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1868408667}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.71929675, y: 2.2721694, z: 2.732861}
+  m_LocalPosition: {x: -0.719, y: 2.335, z: 2.733}
   m_LocalScale: {x: 6.809637, y: 6.8096375, z: 6.8096375}
   m_Children: []
   m_Father: {fileID: 954974610}
@@ -60651,6 +61951,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1868408667}
   m_Mesh: {fileID: 4300122, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1868408671
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1868408667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300122, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!54 &1868408672
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1868408667}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &1868408673
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1868408667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.017311484
+  m_Height: 0.040261958
+  m_Direction: 1
+  m_Center: {x: -9.737711e-10, y: 0.0028197407, z: 0.01493493}
 --- !u!1 &1870339732
 GameObject:
   m_ObjectHideFlags: 0
@@ -60879,6 +62219,7 @@ GameObject:
   - 4: {fileID: 1880120354}
   - 33: {fileID: 1880120356}
   - 23: {fileID: 1880120355}
+  - 64: {fileID: 1880120357}
   m_Layer: 0
   m_Name: pTorus2 4
   m_TagString: Untagged
@@ -60932,6 +62273,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1880120353}
+  m_Mesh: {fileID: 4300484, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1880120357
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1880120353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300484, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1883437145
 GameObject:
@@ -61061,6 +62414,7 @@ GameObject:
   - 4: {fileID: 1886143199}
   - 33: {fileID: 1886143201}
   - 23: {fileID: 1886143200}
+  - 64: {fileID: 1886143202}
   m_Layer: 0
   m_Name: pTorus3 6
   m_TagString: Untagged
@@ -61114,6 +62468,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1886143198}
+  m_Mesh: {fileID: 4300496, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1886143202
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1886143198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300496, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1886701782
 GameObject:
@@ -61418,6 +62784,7 @@ GameObject:
   - 4: {fileID: 1899103316}
   - 33: {fileID: 1899103318}
   - 23: {fileID: 1899103317}
+  - 64: {fileID: 1899103319}
   m_Layer: 0
   m_Name: pCylinder3 4
   m_TagString: Untagged
@@ -61471,6 +62838,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1899103315}
+  m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1899103319
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899103315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300244, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1001 &1899604730
 Prefab:
@@ -62825,6 +64204,7 @@ GameObject:
   - 4: {fileID: 1919313418}
   - 33: {fileID: 1919313420}
   - 23: {fileID: 1919313419}
+  - 64: {fileID: 1919313421}
   m_Layer: 0
   m_Name: pTorus3 23
   m_TagString: Untagged
@@ -62878,6 +64258,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1919313417}
+  m_Mesh: {fileID: 4300414, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1919313421
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1919313417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300414, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1920102264
 GameObject:
@@ -63164,6 +64556,7 @@ GameObject:
   - 4: {fileID: 1931226800}
   - 33: {fileID: 1931226802}
   - 23: {fileID: 1931226801}
+  - 64: {fileID: 1931226803}
   m_Layer: 0
   m_Name: pCylinder1 4
   m_TagString: Untagged
@@ -63217,6 +64610,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1931226799}
+  m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1931226803
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1931226799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!4 &1932281702 stripped
 Transform:
@@ -63545,6 +64950,7 @@ GameObject:
   - 4: {fileID: 1958861440}
   - 33: {fileID: 1958861442}
   - 23: {fileID: 1958861441}
+  - 64: {fileID: 1958861443}
   m_Layer: 0
   m_Name: pTorus2 24
   m_TagString: Untagged
@@ -63598,6 +65004,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1958861439}
+  m_Mesh: {fileID: 4300418, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1958861443
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1958861439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300418, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1962103968
 GameObject:
@@ -63884,6 +65302,7 @@ GameObject:
   - 4: {fileID: 1977268773}
   - 33: {fileID: 1977268775}
   - 23: {fileID: 1977268774}
+  - 64: {fileID: 1977268776}
   m_Layer: 0
   m_Name: Plane.010
   m_TagString: Untagged
@@ -63937,6 +65356,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1977268772}
+  m_Mesh: {fileID: 4300124, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &1977268776
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1977268772}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
   m_Mesh: {fileID: 4300124, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &1977464769
 GameObject:
@@ -64341,6 +65772,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1986488562}
+  - 64: {fileID: 1986488563}
   m_Layer: 0
   m_Name: group39
   m_TagString: Untagged
@@ -64363,6 +65795,18 @@ Transform:
   - {fileID: 1036478811}
   m_Father: {fileID: 2038483185}
   m_RootOrder: 3
+--- !u!64 &1986488563
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1986488561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1994076545
 Prefab:
   m_ObjectHideFlags: 0
@@ -64682,6 +66126,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1999257517}
+  - 64: {fileID: 1999257518}
   m_Layer: 0
   m_Name: group50
   m_TagString: Untagged
@@ -64704,6 +66149,18 @@ Transform:
   - {fileID: 639622109}
   m_Father: {fileID: 182811206}
   m_RootOrder: 8
+--- !u!64 &1999257518
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1999257516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &2000043697
 GameObject:
   m_ObjectHideFlags: 0
@@ -64775,6 +66232,7 @@ GameObject:
   - 4: {fileID: 2002856680}
   - 33: {fileID: 2002856682}
   - 23: {fileID: 2002856681}
+  - 64: {fileID: 2002856683}
   m_Layer: 0
   m_Name: pTorus3 21
   m_TagString: Untagged
@@ -64828,6 +66286,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2002856679}
+  m_Mesh: {fileID: 4300402, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &2002856683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002856679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300402, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &2005048622
 GameObject:
@@ -65433,6 +66903,7 @@ GameObject:
   - 4: {fileID: 2026491416}
   - 33: {fileID: 2026491418}
   - 23: {fileID: 2026491417}
+  - 64: {fileID: 2026491419}
   m_Layer: 0
   m_Name: pCylinder1 4
   m_TagString: Untagged
@@ -65486,6 +66957,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2026491415}
+  m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &2026491419
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2026491415}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300246, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!4 &2027107510 stripped
 Transform:
@@ -66576,6 +68059,7 @@ GameObject:
   - 4: {fileID: 2069782385}
   - 33: {fileID: 2069782387}
   - 23: {fileID: 2069782386}
+  - 64: {fileID: 2069782388}
   m_Layer: 0
   m_Name: Plane.018
   m_TagString: Untagged
@@ -66629,6 +68113,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2069782384}
+  m_Mesh: {fileID: 4300018, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &2069782388
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069782384}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
   m_Mesh: {fileID: 4300018, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &2070591790
 GameObject:
@@ -67367,6 +68863,7 @@ GameObject:
   - 4: {fileID: 2110967128}
   - 65: {fileID: 2110967130}
   - 54: {fileID: 2110967129}
+  - 64: {fileID: 2110967131}
   m_Layer: 0
   m_Name: Flan (2)
   m_TagString: Untagged
@@ -67413,10 +68910,22 @@ BoxCollider:
   m_GameObject: {fileID: 2110967127}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.34115914, y: 0.13626622, z: 0.3346731}
   m_Center: {x: 0.005149007, y: 0.011841536, z: -0.0039196014}
+--- !u!64 &2110967131
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110967127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 0}
 --- !u!1 &2114241932
 GameObject:
   m_ObjectHideFlags: 0
@@ -68004,6 +69513,7 @@ GameObject:
   - 4: {fileID: 2134817644}
   - 33: {fileID: 2134817646}
   - 23: {fileID: 2134817645}
+  - 64: {fileID: 2134817647}
   m_Layer: 0
   m_Name: pCylinder4 19
   m_TagString: Untagged
@@ -68060,6 +69570,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2134817643}
   m_Mesh: {fileID: 4300386, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &2134817647
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134817643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300386, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &2138393308
 GameObject:
   m_ObjectHideFlags: 0
@@ -68070,6 +69592,7 @@ GameObject:
   - 4: {fileID: 2138393309}
   - 33: {fileID: 2138393311}
   - 23: {fileID: 2138393310}
+  - 64: {fileID: 2138393312}
   m_Layer: 0
   m_Name: pTorus2 25
   m_TagString: Untagged
@@ -68123,6 +69646,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2138393308}
+  m_Mesh: {fileID: 4300424, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
+--- !u!64 &2138393312
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2138393308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
   m_Mesh: {fileID: 4300424, guid: 7c24212787de4a649a43b6d235dfcd61, type: 3}
 --- !u!1 &2143330522
 GameObject:
